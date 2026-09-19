@@ -1,0 +1,192 @@
+{
+    "thirdParty-1": {
+        "bind": {
+            "thirdPartySingleB": "thirdPartySingleB-1",
+            "thirdPartyMultiB": "thirdPartyMultiB-1"
+        }
+    },
+    "thirdParty-2": {
+        "feature": {
+            "iconfontStyle": "style_2_iconfont",
+            "padding": "P0",
+            "sectionSpace": "P5"
+        },
+        "bind": {
+            "thirdPartySingleB": "thirdPartySingleB-2",
+            "thirdPartyMultiB": "thirdPartyMultiB-2"
+        },
+        "container": {
+            "backgroundColor": "@Color(B6)"
+        },
+        "themeIds": {
+            "A": {
+                "": ""
+            },
+            "A1": {
+                "color": "@Color(B6.N1)",
+                "font": "T4-R"
+            },
+            "A2": {
+                "color": "@Color(B6.N3)",
+                "font": "T4-R"
+            },
+            "A3": {
+                "color": "@Color(B6.N6)",
+                "font": "IC3"
+            }
+        },
+        "layout": {
+            "height": "P2+IC3+P2+P6+I5+P1+T4.h+P6",
+            "padHeight": "P2+IC3+P2+P6+I5+P1+T4.h+P6",
+            "content": {
+                "A": {
+                    "top": {
+                        "to": "super",
+                        "side": "top"
+                    },
+                    "left": {
+                        "to": "super",
+                        "side": "left"
+                    },
+                    "right": {
+                        "to": "super",
+                        "side": "right"
+                    },
+                    "height": "P2+IC3+P2"
+                },
+                "A1": {
+                    "centerY": {
+                        "to": "A",
+                        "side": "centerY"
+                    },
+                    "left": {
+                        "to": "A",
+                        "side": "left",
+                        "offset": "P4"
+                    },
+                    "right": {
+                        "to": "A2",
+                        "side": "left",
+                        "offset": "-P4"
+                    },
+                    "weightH": 1
+                },
+                "A2": {
+                    "centerY": {
+                        "to": "A",
+                        "side": "centerY"
+                    },
+                    "right": {
+                        "to": "A3",
+                        "side": "left"
+                    },
+                    "weightH": 2
+                },
+                "A3": {
+                    "centerY": {
+                        "to": "A",
+                        "side": "centerY"
+                    },
+                    "right": {
+                        "to": "A",
+                        "side": "right",
+                        "offset": "-P4"
+                    },
+                    "width": "IC3",
+                    "height": "IC3"
+                }
+            }
+        }
+    },
+    "thirdParty-3": {
+        "feature": {
+            "iconfontStyle": "style_3_iconfont",
+            "padding": "P4",
+            "sectionSpace": "P5"
+        },
+        "bind": {
+            "thirdPartySingleB": "thirdPartySingleB-3",
+            "thirdPartyMultiB": "thirdPartyMultiB-3"
+        },
+        "container": {
+            
+        },
+        "themeIds": {
+            "A": {
+                "": ""
+            },
+            "A1": {
+                "color": "@Color(B1.N1)",
+                "font": "T4-R"
+            },
+            "A2": {
+                "color": "@Color(B1.N3)",
+                "font": "T4-R"
+            },
+            "A3": {
+                "color": "@Color(B6.N6)",
+                "font": "IC3"
+            }
+        },
+        "layout": {
+            "height": "P2+IC3+P2+P1+P6+I5+P1+T2.h+P6",
+            "padHeight": "P2+IC3+P2+P1+P6+I5+P1+T2.h+P6",
+            "content": {
+                "A": {
+                    "left": {
+                        "to": "super",
+                        "side": "left"
+                    },
+                    "top": {
+                        "to": "super",
+                        "side": "top"
+                    },
+                    "right": {
+                        "to": "super",
+                        "side": "right"
+                    },
+                    "height": "P2+IC3+P2"
+                },
+                "A1": {
+                    "centerY": {
+                        "to": "A",
+                        "side": "centerY"
+                    },
+                    "left": {
+                        "to": "A",
+                        "side": "left"
+                    },
+                    "right": {
+                        "to": "A2",
+                        "side": "left",
+                        "offset": "-P4"
+                    },
+                    "weightH": 1
+                },
+                "A2": {
+                    "centerY": {
+                        "to": "A",
+                        "side": "centerY"
+                    },
+                    "right": {
+                        "to": "A3",
+                        "side": "left"
+                    },
+                    "weightH": 2
+                },
+                "A3": {
+                    "centerY": {
+                        "to": "A",
+                        "side": "centerY"
+                    },
+                    "right": {
+                        "to": "A",
+                        "side": "right"
+                    },
+                    "width": "IC3",
+                    "height": "IC3"
+                }
+            }
+        }
+    }
+}

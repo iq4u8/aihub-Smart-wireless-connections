@@ -1,0 +1,36 @@
+{
+    "kitName": "DeviceKit",
+    "kitVersion": "4.1.14",
+    "plugins": {
+        "com.thingclips.smart.plugin:tunibluetoothmanager": {
+            "version": "1.6.9"
+        },
+        "com.thingclips.smart.plugin:tunideviceactivationmanager": {
+            "version": "1.5.0"
+        },
+        "com.thingclips.smart.plugin:tunidevicecontrolmanager": {
+            "version": "2.5.4"
+        },
+        "com.thingclips.smart.plugin:tunidevicedetailmanager": {
+            "version": "1.3.16"
+        },
+        "com.thingclips.smart.plugin:tunidevicescenemanager": {
+            "version": "1.1.2"
+        },
+        "com.thingclips.smart.plugin:tunigroupcontrolmanager": {
+            "version": "2.0.3"
+        },
+        "com.thingclips.smart.plugin:tunimeshmanager": {
+            "version": "1.0.4-anonymize.1"
+        },
+        "com.thingclips.smart.plugin:tuniotamanager": {
+            "version": "2.0.0"
+        },
+        "com.thingclips.smart.plugin:tunithingcontrolmanager": {
+            "version": "1.1.4"
+        },
+        "com.thingclips.smart.plugin:tunivirtualexperiencemanager": {
+            "version": "1.0.0-rc.8"
+        }
+    }
+}

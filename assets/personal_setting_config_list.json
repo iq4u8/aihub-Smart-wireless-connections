@@ -1,0 +1,93 @@
+[
+  {
+    "name": "personal_setting_user_group",
+    "header": {
+      "cellType": "personal_setting_empty"
+    },
+    "items": [
+      {
+        "cellType": "personal_setting_account_info"
+      },
+      {
+        "cellType": "personal_setting_account_security"
+      },
+      {
+        "cellType": "personal_setting_device_upgrades"
+      }
+    ]
+  },
+  {
+    "name": "personal_setting_switch_group",
+    "header": {
+      "cellType": "personal_setting_empty"
+    },
+    "items": [
+      {
+        "cellType": "personal_setting_sound"
+      },
+      {
+        "cellType": "personal_setting_push"
+      },
+      {
+        "cellType": "personal_setting_night_mode"
+      },
+      {
+        "cellType": "personal_setting_unit"
+      },
+      {
+        "cellType": "personal_setting_multi_lang_debug"
+      },
+      {
+        "cellType": "personal_setting_pad"
+      },
+      {
+        "cellType": "personal_setting_diyhome_switch"
+      },
+      {
+        "cellType": "personal_setting_more_features"
+      }
+    ]
+  },
+  {
+    "name": "personal_setting_private_group",
+    "header": {
+      "cellType": "personal_setting_empty"
+    },
+    "items": [
+      {
+        "cellType": "personal_setting_about"
+      },
+      {
+        "cellType": "personal_setting_fast_privacy"
+      },
+      {
+        "cellType": "personal_setting_privacy_policy"
+      }
+    ]
+  },
+  {
+    "name": "personal_setting_function_group",
+    "header": {
+      "cellType": "personal_setting_empty"
+    },
+    "items": [
+      {
+        "cellType": "personal_setting_network"
+      },
+      {
+        "cellType": "personal_setting_cache"
+      }
+    ]
+  },
+  {
+    "name": "personal_setting_logout_group",
+    "header": {
+      "cellType": "personal_setting_empty"
+    },
+    "items": [
+      {
+        "cellType": "personal_setting_logout"
+      }
+    ]
+  }
+]

@@ -1,0 +1,49 @@
+{
+  "skills_status": [
+    {
+      "skill_name": "SMS_SERVICE",
+      "isOpen": "1",
+      "isNeedCheckConfigRouter": "1"
+    },
+    {
+      "skill_name": "VOICE_CALL_SERVICE",
+      "isOpen": "1",
+      "isNeedCheckConfigRouter": "1"
+    },
+    {
+      "skill_name": "CAMERA_AI_SERVICE",
+      "isOpen": "1",
+      "isNeedCheckConfigRouter": "1"
+    },
+    {
+      "skill_name": "CLOUD_STORAGE_SERVICE",
+      "isOpen": "1",
+      "isNeedCheckConfigRouter": "1"
+    },
+    {
+      "skill_name": "VIRTUAL_GATEWAY_SERVICE",
+      "isOpen": "1",
+      "isNeedCheckConfigRouter": "0"
+    },
+    {
+      "skill_name": "PROFESSIONAL_MONITORING_NL_SERVICE",
+      "isOpen": "1",
+      "isNeedCheckConfigRouter": "1"
+    },
+    {
+      "skill_name": "PROFESSIONAL_MONITORING_STATION_SERVICE",
+      "isOpen": "1",
+      "isNeedCheckConfigRouter": "1"
+    },
+    {
+      "skill_name": "HOME_HOSTING_SERVICE",
+      "isOpen": "1",
+      "isNeedCheckConfigRouter": "1"
+    },
+    {
+      "skill_name": "PROFESSIONAL_MONITORING_SIA_SERVICE",
+      "isOpen": "1",
+      "isNeedCheckConfigRouter": "1"
+    }
+  ]
+}

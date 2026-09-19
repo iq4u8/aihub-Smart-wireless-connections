@@ -1,0 +1,9 @@
+{
+    "kitName": "P2PKit",
+    "kitVersion": "2.0.4",
+    "plugins": {
+        "com.thingclips.smart.plugin:tunip2pfilemanager": {
+            "version": "1.0.10"
+        }
+    }
+}

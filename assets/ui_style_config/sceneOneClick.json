@@ -1,0 +1,225 @@
+{
+    "sceneOneClick-1": {
+    },
+    "sceneOneClick-2": {
+        "feature": {
+            "iconfontStyle":"style_2_iconfont",
+            "iconColorStyle":0,
+            "minWidth": 300,
+            "padMinWidth": 320,
+            "marginLeft": "",
+            "marginTop": "",
+            "marginRight": "",
+            "marginBottom": ""
+        },
+        "container": {
+            "cornerRadius": "@Corner(C3_2)",
+            "backgroundColor": "@Color(B3)",
+            "borderWidth": "",
+            "borderColor": ""
+        },
+        "themeIds": {
+            "A": {
+                "font":"IC4",
+                "color":"@Color(B3.N1)"
+            },
+            "B": {
+                "font":"IC3",
+                "color":"#80FFFFFF"
+            },
+            "C": {
+                "color":"#E5FFFFFF",
+                "font":"T9-S",
+                "textOverflow": 0,
+                "numberOfLines": 1
+            },
+            "D": {
+                "color":"#B2FFFFFF",
+                "font":"T3-R",
+                "textOverflow": 0,
+                "numberOfLines": 1
+            }
+        },
+        "layout": {
+            "height": "P4+P4+IC4+P6+T9.h+T3.h",
+            "padHeight":"",
+            "content": {
+                "A": {
+                    "left": {
+                        "to": "super",
+                        "side": "left",
+                        "offset": "P4"
+                    },
+                    "top": {
+                        "to": "super",
+                        "side": "top",
+                        "offset": "P4"
+                    },
+                    "width": "IC4",
+                    "height": "IC4"
+                },
+                "B": {
+                    "right": {
+                        "to": "super",
+                        "side":"right",
+                        "offset": "-P4"
+                    },
+                    "top": {
+                        "to": "super",
+                        "side": "top",
+                        "offset": "P4"
+                    },
+                    "width": "IC3",
+                    "height":"IC3"
+                },
+                "C": {
+                    "left": {
+                        "to": "super",
+                        "side":"left",
+                        "offset": "P4"
+                    },
+                    "right": {
+                        "to": "super",
+                        "side":"right",
+                        "offset": "-P4"
+                    },
+                    "top": {
+                        "to": "A",
+                        "side": "bottom",
+                        "offset": "P6"
+                    },
+                    "height":"T9.h"
+                },
+                "D": {
+                    "left": {
+                        "to": "super",
+                        "side":"left",
+                        "offset": "P4"
+                    },
+                    "right": {
+                        "to": "super",
+                        "side":"right",
+                        "offset": "-P4"
+                    },
+                    "top": {
+                        "to": "C",
+                        "side": "bottom",
+                        "offset": "P0"
+                    },
+                    "height":"T3.h"
+                }
+            }
+        }
+    },
+
+    "sceneOneClick-3": {
+        "feature": {
+            "iconfontStyle":"style_3_iconfont",
+            "iconColorStyle":1,
+            "minWidth": 160,
+            "padMinWidth": 230,
+            "marginLeft": "",
+            "marginTop": "",
+            "marginRight": "",
+            "marginBottom": ""
+        },
+        "container": {
+            "cornerRadius": "@Corner(C3_2)",
+            "backgroundColor": "@Color(B3)",
+            "borderWidth": "",
+            "borderColor": ""
+        },
+        "themeIds": {
+            "A": {
+                "":""
+            },
+            "B": {
+                "font":"IC3",
+                "color":"@Color(B3.N6)"
+            },
+            "C": {
+                "color":"@Color(B3.N1)",
+                "font":"T6-R",
+                "textOverflow": 0,
+                "numberOfLines": 2,
+                "textAlign":1
+            },
+            "D": {
+                "color":"@Color(B3.N3)",
+                "font":"T1-R",
+                "textOverflow": 0,
+                "numberOfLines": 1,
+                "textAlign":1
+            }
+        },
+        "layout": {
+            "height": "P9+P9+IC4+P4+T6.h+T1.h",
+            "padHeight":"P9+P9+IC4+P4+T6.h+T1.h",
+            "content": {
+                "A": {
+                    "centerX": {
+                        "to": "super",
+                        "side": "centerX"
+                    },
+                    "top": {
+                        "to": "super",
+                        "side": "top",
+                        "offset": "P9"
+                    },
+                    "width": "IC4",
+                    "height": "IC4"
+                },
+                "B": {
+                    "right": {
+                        "to": "super",
+                        "side":"right",
+                        "offset": "-P2"
+                    },
+                    "top": {
+                        "to": "super",
+                        "side": "top",
+                        "offset": "P2"
+                    },
+                    "width": "IC3",
+                    "height":"IC3"
+                },
+                "C": {
+                    "left": {
+                        "to": "super",
+                        "side":"left",
+                        "offset": "P4"
+                    },
+                    "right": {
+                        "to": "super",
+                        "side":"right",
+                        "offset": "-P4"
+                    },
+                    "top": {
+                        "to": "A",
+                        "side": "bottom",
+                        "offset": "P4"
+                    },
+                    "height":"T6.h+T6.h"
+                },
+                "D": {
+                    "left": {
+                        "to": "super",
+                        "side":"left",
+                        "offset": "P4"
+                    },
+                    "right": {
+                        "to": "super",
+                        "side":"right",
+                        "offset": "-P4"
+                    },
+                    "bottom": {
+                        "to": "super",
+                        "side": "bottom",
+                        "offset": "-P9+T6.h"
+                    },
+                    "height":"T1.h"
+                }
+            }
+        }
+    }
+}

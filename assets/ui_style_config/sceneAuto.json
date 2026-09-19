@@ -1,0 +1,285 @@
+{
+    "sceneAuto-1": {
+    },
+    "sceneAuto-2": {
+        "container": {
+            "cornerRadius": "@Corner(C3_2)",
+            "backgroundColor": "@Color(B3)",
+            "borderWidth": "",
+            "borderColor": ""
+        },
+        "feature": {
+            "hideC":1,
+            "iconfontStyle": "style_2_iconfont",
+            "minWidth": 300,
+            "padMinWidth": 320,
+            "autoArrowColor":"@Color(B3.N6)",
+            "switchOpenColor":"@Color(M3)",
+            "switchCloseColor":"@Color(B3.N6)"
+        },
+        "themeIds": {
+            "A": {
+                "color":"@Color(B3.N1)",
+                "font":"T9-S",
+                "textOverflow": 0,
+                "numberOfLines": 1
+            },
+            "B": {
+                "color":"@Color(B3.N3)",
+                "font":"T3-R"
+            },
+            "E": {
+                "font":"IC5"
+            },
+            "B-invalid": {
+                "color":"#FFA000",
+                "font":"T3-R"
+            },
+            "C-invalid": {
+                "color":"#FFA000",
+                "font":"IC3",
+                "textAlign":1
+            }
+        },
+        "layout": {
+            "height": "P8+P8+T9.h+P1+T3.h",
+            "padHeight": "",
+            "content": {
+                "A": {
+                    "top": {
+                        "to": "super",
+                        "side": "top",
+                        "offset": "P8"
+                    },
+                    "left": {
+                        "to": "super",
+                        "side": "left",
+                        "offset": "P4"
+                    },
+                    "right": {
+                        "to": "E",
+                        "side": "left",
+                        "offset": "@Max(-P0)"
+                    },
+                    "height": "T9.h"
+                },
+                "B": {
+                    "top": {
+                        "to": "A",
+                        "side":"bottom",
+                        "offset": "P1"
+                    },
+                    "left": {
+                        "to": "super",
+                        "side": "left",
+                        "offset": "P4"
+                    },
+                    "right": {
+                        "to": "E",
+                        "side": "right",
+                        "offset": "P0"
+                    },
+                    "height":"T3.h"
+                },
+                "E": {
+                    "centerY": {
+                        "to": "super",
+                        "side": "centerY"
+                    },
+                    "right": {
+                        "to": "super",
+                        "side": "right",
+                        "offset": "-P4"
+                    },
+                    "width":"IC5",
+                    "height":"IC5"
+                },
+
+                "B-invalid": {
+                    "left": {
+                        "to": "A",
+                        "side":"left",
+                        "offset": "P0"
+                    },
+                    "top": {
+                        "to": "A",
+                        "side": "bottom",
+                        "offset": "0.5P1"
+                    },
+                    "right": {
+                        "to": "A",
+                        "side": "right",
+                        "offset": "P0"
+                    },
+                    "height":"T3.h"
+                },
+                "C-invalid": {
+                    "right": {
+                        "to": "super",
+                        "side":"right",
+                        "offset": "-P4"
+                    },
+                    "top": {
+                        "to": "super",
+                        "side": "top",
+                        "offset": "P4"
+                    },
+                    "width":"IC3",
+                    "height":"IC3"
+                }
+            }
+        }
+    },
+
+    "sceneAuto-3": {
+        "container": {
+            "hideC":1,
+            "cornerRadius": "@Corner(C3_2)",
+            "backgroundColor": "@Color(B3)",
+            "borderWidth": "",
+            "borderColor": ""
+        },
+        "feature": {
+            "iconfontStyle": "style_3_iconfont",
+            "minWidth": 160,
+            "padMinWidth": 230,
+            "autoArrowColor":"@Color(B3.N6)",
+            "switchOpenColor":"@Color(M3)",
+            "switchCloseColor":"@Color(B3.N6)"
+        },
+        "themeIds": {
+            "A": {
+                "color":"@Color(B3.N1)",
+                "font":"T6-S",
+                "textOverflow": 0,
+                "numberOfLines": 1
+            },
+            "B": {
+                "color":"@Color(B3.N3)",
+                "font":"T1-R"
+            },
+            "C": {
+                "color":"@Color(B3.N6)",
+                "font":"IC3",
+                "textAlign":1
+            },
+            "E": {
+                "font":"IC5",
+                "textAlign":1
+            },
+            "B-invalid": {
+                "color":"#FFA000",
+                "font":"T3-R"
+            },
+            "C-invalid": {
+                "color":"#FFA000",
+                "font":"IC3",
+                "textAlign":1
+            }
+        },
+        "layout": {
+            "height": "166",
+            "padHeight": "230",
+            "content": {
+                "A": {
+                    "left": {
+                        "to": "super",
+                        "side": "left",
+                        "offset": "P4"
+                    },
+                    "bottom": {
+                        "to": "super",
+                        "side": "bottom",
+                        "offset": "-P4-T1.h"
+                    },
+                    "right": {
+                        "to": "super",
+                        "side": "right",
+                        "offset": "-P4"
+                    },
+                    "height": "T6.h"
+                },
+                "B": {
+                    "left": {
+                        "to": "super",
+                        "side":"left",
+                        "offset": "P4"
+                    },
+                    "bottom": {
+                        "to": "super",
+                        "side": "bottom",
+                        "offset": "-P4"
+                    },
+                    "right": {
+                        "to": "super",
+                        "side": "right",
+                        "offset": "-P4"
+                    },
+                    "height":"T1.h"
+                },
+                "C": {
+                    "left": {
+                        "to": "super",
+                        "side":"left",
+                        "offset": "P4"
+                    },
+                    "centerY": {
+                        "to": "E",
+                        "side": "centerY",
+                        "offset": "P0"
+                    },
+                    "width":"IC3",
+                    "height":"IC3"
+                },
+                "E": {
+                    "right": {
+                        "to": "super",
+                        "side":"right",
+                        "offset": "-P3"
+                    },
+                    "top": {
+                        "to": "super",
+                        "side": "top",
+                        "offset":"P1"
+                    },
+                    "width":"IC5",
+                    "height":"IC5"
+                },
+                "B-invalid": {
+                    "left": {
+                        "to": "A",
+                        "side":"left",
+                        "offset": "P0"
+                    },
+                    "top": {
+                        "to": "A",
+                        "side": "bottom",
+                        "offset": "0.5P1"
+                    },
+                    "right": {
+                        "to": "A",
+                        "side": "right",
+                        "offset": "P0"
+                    },
+                    "height":"T3.h"
+                },
+                "C-invalid": {
+                    "right": {
+                        "to": "super",
+                        "side":"right",
+                        "offset": "-P4"
+                    },
+                    "top": {
+                        "to": "super",
+                        "side": "top",
+                        "offset": "P4"
+                    },
+                    "width":"IC3",
+                    "height":"IC3"
+                }
+            }
+        }
+    }
+}
+
+

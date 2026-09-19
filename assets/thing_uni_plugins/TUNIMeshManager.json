@@ -1,0 +1,1 @@
+{"getMeshDeviceId":{"object":{"nodeId":"nodeId","deviceId":"deviceId"},"success":{"deviceId":"deviceId"}},"getDpDataByMesh":{"object":{"deviceId":"deviceId","dpIds":"dpIds"},"success":{}}}

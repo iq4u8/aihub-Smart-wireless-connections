@@ -1,0 +1,174 @@
+{
+    "personalInfo-1": {
+    },
+    "personalInfo-2": {
+        "feature": {
+            "iconfontStyle": "style_2_iconfont",
+            "backgroundColor": "@Color(B6)",
+            "minWidth": 1024,
+            "padMinWidth": 800,
+            "sectionSpace": "P4",
+            "padding": "P0",
+            "itemSpace": "P0",
+            "padItemSpace": "P0"
+        },
+        "container": {
+            "backgroundColor": "@Color(B6)"
+        },
+        "themeIds": {
+            "A": {
+                "color": "@Color(B6.N2)",
+                "font": "IC4"
+            },
+            "B": {
+                "color": "@Color(B6.N1)",
+                "font": "T4-R"
+            },
+            "C": {
+                "color": "@Color(B6.N6)",
+                "font": "IC3"
+            },
+            "D": {
+                "textBgColor": "#F04C4C"
+            }
+        },
+        "layout": {
+            "height": "P6+IC3+P6",
+            "content": {
+                "A": {
+                    "centerY": {
+                        "to": "super",
+                        "side": "centerY"
+                    },
+                    "left": {
+                        "to": "super",
+                        "side": "left",
+                        "offset": "P4"
+                    },
+                    "width": "IC4",
+                    "height": "IC4"
+                },
+                "B": {
+                    "centerY": {
+                        "to": "super",
+                        "side": "centerY"
+                    },
+                    "left": {
+                        "to": "A",
+                        "side": "right",
+                        "offset": "P3"
+                    },
+                    "right": {
+                        "to": "C",
+                        "side": "left"
+                    },
+                    "height": "T4.h"
+                },
+                "C": {
+                    "centerY": {
+                        "to": "super",
+                        "side": "centerY"
+                    },
+                    "right": {
+                        "to": "super",
+                        "side": "right",
+                        "offset": "-P4"
+                    },
+                    "width": "IC3",
+                    "height": "IC3"
+                },
+                "D": {
+                    "centerY": {
+                        "to": "super",
+                        "side": "centerY"
+                    },
+                    "right": {
+                        "to": "C",
+                        "side": "left"
+                    },
+                    "width": 8,
+                    "height": 8
+                }
+            }
+        }
+    },
+    "personalInfo-3": {
+        "feature": {
+            "iconfontStyle": "style_3_iconfont",
+            "backgroundColor": "@Color(B6)",
+            "cornerRadius": "@Corner(C3_2)",
+            "minWidth": 160,
+            "padMinWidth": 176,
+            "sectionSpace": "P3",
+            "padding": "P4",
+            "itemSpace": "P3",
+            "padItemSpace": "P3"
+        },
+        "container": {
+            "backgroundColor": "@Color(B6)",
+            "cornerRadius": "@Corner(C3_2)"
+        },
+        "themeIds": {
+            "A": {
+                "color": "@Color(B6.N2)",
+                "font": "IC4"
+            },
+            "B": {
+                "color": "@Color(B6.N1)",
+                "font": "T4-R",
+                "textAlign": 1,
+                "numberOfLines": 2
+            },
+            "D": {
+                "textBgColor": "#F04C4C"
+            }
+        },
+        "layout": {
+            "height": "56+IC3+P1+T4.h+56",
+            "content": {
+                "A": {
+                    "top": {
+                        "to": "super",
+                        "side": "top",
+                        "offset": 56
+                    },
+                    "centerX": {
+                        "to": "super",
+                        "side": "centerX"
+                    },
+                    "width": "IC4",
+                    "height": "IC4"
+                },
+                "B": {
+                    "top": {
+                        "to": "A",
+                        "side": "bottom",
+                        "offset": "P1"
+                    },
+                    "left": {
+                        "to": "super",
+                        "side": "left",
+                        "offset": "P4"
+                    },
+                    "right": {
+                        "to": "super",
+                        "side": "right",
+                        "offset": "-P4"
+                    }
+                },
+                "D": {
+                    "top": {
+                        "to": "A",
+                        "side": "top"
+                    },
+                    "right": {
+                        "to": "A",
+                        "side": "right"
+                    },
+                    "width": 8,
+                    "height": 8
+                }
+            }
+        }
+    }
+}

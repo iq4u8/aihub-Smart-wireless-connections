@@ -1,0 +1,337 @@
+{
+  "skill_version": "1.5",
+  "skills": [
+    {
+      "skill_name": "SMS_SERVICE",
+      "configurations": [
+        {
+          "config_name": "emergency",
+          "router": "AlarmPlatformEmergencyContactRouter",
+          "H5_router_key": "",
+          "conditions": [
+          ],
+          "thing_event_skye": "thing_2n2hhvh0s2gt80rsyvve9or0e3vgglfd"
+        }
+      ]
+    },
+    {
+      "skill_name": "VOICE_CALL_SERVICE",
+      "configurations": [
+        {
+          "config_name": "emergency",
+          "router": "AlarmPlatformEmergencyContactRouter",
+          "H5_router_key": "",
+          "conditions": [
+          ],
+          "thing_event_skye": "thing_2n2hhvh0s2gt80rsyvve9or0e3vgglfd"
+        }
+      ]
+    },
+    {
+      "skill_name": "CAMERA_AI_SERVICE",
+      "configurations": [
+        {
+          "config_name": "camera_ai_service_bind",
+          "router": "AICameraService",
+          "H5_router_key": "",
+          "conditions": [
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "CLOUD_STORAGE_SERVICE",
+      "configurations": [
+        {
+          "config_name": "camera_cloud_storage_service_bind",
+          "router": "vedioCloudStorage",
+          "H5_router_key": "",
+          "conditions": [
+          ],
+          "thing_event_skye": "thing_zlb7ng5sm2wrxej0xol4nr37ux86a6em"
+        }
+      ]
+    },
+    {
+      "skill_name": "VIRTUAL_GATEWAY_SERVICE",
+      "configurations": [
+      ]
+    },
+    {
+      "skill_name": "PROFESSIONAL_MONITORING_NL_SERVICE",
+      "configurations": [
+        {
+          "config_name": "nl_mc_config",
+          "router": "GotoHomeHostingServiceRouter",
+          "H5_router_key": "",
+          "conditions": [
+          ],
+          "sub_configurations": [
+            {
+              "config_name": "camera_hosting",
+              "router": "CameraHostingRouter",
+              "H5_router_key": "",
+              "conditions": [
+              ]
+            },
+            {
+              "config_name": "camera_sensor_bind",
+              "router": "CameraSensorBindRouter",
+              "H5_router_key": "",
+              "conditions": [
+              ]
+            },
+            {
+              "config_name": "security_code",
+              "router": "AlarmPlatformSecurityCodeRouter",
+              "H5_router_key": "",
+              "conditions": [
+                {
+                  "condition_name": "security_code",
+                  "key": "security_code",
+                  "value": "4",
+                  "relation_ship": "equal"
+                }
+              ]
+            },
+            {
+              "config_name": "emergency",
+              "router": "AlarmPlatformEmergencyContactRouter",
+              "H5_router_key": "",
+              "conditions": [
+              ]
+            },
+            {
+              "config_name": "nl_mc_location",
+              "router": "HostingServiceLocationRouter",
+              "H5_router_key": "nl_mc_location_link",
+              "conditions": [
+                {
+                  "location_type": "2"
+                }
+              ]
+            },
+            {
+              "config_name": "nl_mc_protocol",
+              "router": "",
+              "H5_router_key": "",
+              "conditions": [
+              ]
+            },
+            {
+              "config_name": "camera_cloud_storage_service_bind",
+              "router": "vedioCloudStorage",
+              "H5_router_key": "",
+              "conditions": [
+              ]
+            },
+            {
+              "config_name": "open_nl_mc_service",
+              "router": "",
+              "H5_router_key": "",
+              "conditions": [
+              ]
+            },
+            {
+              "config_name": "hs_remarks",
+              "router": "HostingRemark",
+              "H5_router_key": "",
+              "conditions": [
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "PROFESSIONAL_MONITORING_STATION_SERVICE",
+      "configurations": [
+        {
+          "config_name": "homesecurity_mc_config",
+          "router": "GotoSecurityAlarmPlatformRouter",
+          "H5_router_key": "",
+          "conditions": [
+          ],
+          "sub_configurations": [
+            {
+              "config_name": "emergency",
+              "router": "AlarmPlatformEmergencyContactRouter",
+              "H5_router_key": "",
+              "conditions": [
+              ]
+            },
+            {
+              "config_name": "open_homesecurity_mc_service",
+              "router": "",
+              "H5_router_key": "",
+              "conditions": [
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "HOME_HOSTING_SERVICE",
+      "configurations": [
+        {
+          "config_name": "hosting_service_config",
+          "router": "GotoHomeHostingServiceRouter",
+          "H5_router_key": "",
+          "conditions": [
+          ],
+          "thing_event_skye": "thing_lwbmrnjeqftw2np48rxejfkd40f2rn85",
+          "sub_configurations": [
+            {
+              "config_name": "camera_hosting",
+              "router": "CameraHostingRouter",
+              "H5_router_key": "",
+              "conditions": [
+              ]
+            },
+            {
+              "config_name": "camera_sensor_bind",
+              "router": "CameraSensorBindRouter",
+              "H5_router_key": "",
+              "conditions": [
+              ]
+            },
+            {
+              "config_name": "hosting_service_location",
+              "router": "HostingServiceLocationRouter",
+              "H5_router_key": "",
+              "conditions": [
+              ]
+            },
+            {
+              "config_name": "emergency",
+              "router": "AlarmPlatformEmergencyContactRouter",
+              "H5_router_key": "",
+              "conditions": [
+              ]
+            },
+            {
+              "config_name": "hosting_service_protocol",
+              "router": "",
+              "H5_router_key": "",
+              "conditions": [
+              ]
+            },
+            {
+              "config_name": "hosting_service_privacy",
+              "router": "",
+              "H5_router_key": "",
+              "conditions": [
+              ]
+            },
+            {
+              "config_name": "open_hosting_service",
+              "router": "",
+              "H5_router_key": "",
+              "conditions": [
+              ]
+            },
+            {
+              "config_name": "alarm_password",
+              "router": "securityChangeCode",
+              "H5_router_key": "",
+              "conditions": [
+              ]
+            },
+            {
+              "config_name": "hs_other_settings",
+              "router": "HostingOtherSetting",
+              "H5_router_key": "",
+              "conditions": [
+              ]
+            },
+            {
+              "config_name": "hs_remarks",
+              "router": "HostingRemark",
+              "H5_router_key": "",
+              "conditions": [
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "PROFESSIONAL_MONITORING_SIA_SERVICE",
+      "configurations": [
+        {
+          "config_name": "sia_service_config",
+          "router": "GotoHomeHostingServiceRouter",
+          "H5_router_key": "",
+          "conditions": [
+          ],
+          "sub_configurations": [
+            {
+              "config_name": "camera_hosting",
+              "router": "CameraHostingRouter",
+              "H5_router_key": "",
+              "conditions": [
+              ]
+            },
+            {
+              "config_name": "camera_sensor_bind",
+              "router": "CameraSensorBindRouter",
+              "H5_router_key": "",
+              "conditions": [
+              ]
+            },
+            {
+              "config_name": "hosting_service_location",
+              "router": "HostingServiceLocationRouter",
+              "H5_router_key": "",
+              "conditions": [
+              ]
+            },
+            {
+              "config_name": "emergency",
+              "router": "AlarmPlatformEmergencyContactRouter",
+              "H5_router_key": "",
+              "conditions": [
+              ]
+            },
+            {
+              "config_name": "sia_service_protocol",
+              "router": "",
+              "H5_router_key": "",
+              "conditions": [
+              ]
+            },
+            {
+              "config_name": "open_hosting_service",
+              "router": "",
+              "H5_router_key": "",
+              "conditions": [
+              ]
+            },
+            {
+              "config_name": "alarm_password",
+              "router": "securityChangeCode",
+              "H5_router_key": "",
+              "conditions": [
+              ]
+            },
+            {
+              "config_name": "host_service_account",
+              "router": "VASHostingServiceAccount",
+              "H5_router_key": "",
+              "conditions": [
+              ]
+            },
+            {
+              "config_name": "hs_remarks",
+              "router": "HostingRemark",
+              "H5_router_key": "",
+              "conditions": [
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

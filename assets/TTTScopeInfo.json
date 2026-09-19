@@ -1,0 +1,11 @@
+{
+  "scopes": [
+    "scope.bluetooth",
+    "scope.writePhotosAlbum",
+    "scope.userLocationBackground",
+    "scope.record",
+    "scope.camera",
+    "scope.userLocation",
+    "scope.userPreciseLocation"
+  ]
+}

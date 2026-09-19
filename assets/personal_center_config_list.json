@@ -1,0 +1,70 @@
+[
+  {
+    "name": "personal_center_group",
+    "items": [
+      {
+        "cellType": "personal_center_avatar"
+      },
+      {
+        "cellType": "personal_center_mini_widget"
+      },
+      {
+        "cellType": "personal_center_advertising"
+      }
+    ]
+  },
+  {
+    "name": "personal_center_third_service_group",
+    "items": [
+      {
+        "cellType": "personal_center_third_service"
+      }
+    ]
+  },
+  {
+    "name": "personal_center_menu_list_group",
+    "items": [
+      {
+        "cellType": "personal_center_family"
+      },
+      {
+        "cellType": "personal_center_camera_module_setting"
+      },
+      {
+        "cellType": "personal_center_protect_setting"
+      },
+      {
+        "cellType": "personal_center_device_list"
+      },
+      {
+        "cellType": "personal_center_outdoor_offline_store"
+      },
+      {
+        "cellType": "personal_center_message"
+      },
+      {
+        "cellType": "personal_center_health_center"
+      },
+      {
+        "cellType": "personal_center_help"
+      },
+      {
+        "cellType": "personal_center_more_service"
+      },
+      {
+        "cellType": "personal_center_mall"
+      },
+      {
+        "cellType": "personal_center_online_customer_service"
+      }
+    ]
+  },
+  {
+    "name": "personal_center_temporary_exit_group",
+    "items": [
+      {
+        "cellType": "personal_center_temporary_exit"
+      }
+    ]
+  }
+]

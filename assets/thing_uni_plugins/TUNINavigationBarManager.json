@@ -1,0 +1,1 @@
+{"showNavigationBarLoading":{"success":{}},"setNavigationBarTitle":{"object":{"title":"title"},"success":{}},"setNavigationBarColor":{"object":{"frontColor":"frontColor","backgroundColor":"backgroundColor","animation":{"duration":"duration","timingFunc":"timingFunc"}},"success":{}},"hideNavigationBarLoading":{"success":{}},"hideHomeButton":{"success":{}}}

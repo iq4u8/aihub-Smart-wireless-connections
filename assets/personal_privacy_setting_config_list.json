@@ -1,0 +1,53 @@
+[
+  {
+    "name": "personal_privacy_setting_data_authorization_group",
+    "header": {
+      "cellType": "personal_privacy_setting_empty"
+    },
+    "items": [
+      {
+        "cellType": "personal_privacy_setting_data_authorization"
+      }
+    ]
+  },
+  {
+    "name": "personal_privacy_setting_marketing_push_group",
+    "header": {
+      "cellType": "personal_privacy_setting_empty"
+    },
+    "items": [
+      {
+        "cellType": "personal_privacy_setting_marketing_push"
+      }
+    ]
+  },
+  {
+    "name": "personal_privacy_setting_permission_group",
+    "header": {
+      "cellType": "personal_privacy_setting_empty"
+    },
+    "items": [
+      {
+        "cellType": "personal_privacy_setting_notification_setting"
+      },
+      {
+        "cellType": "personal_privacy_setting_permission_access_coarse_location"
+      },
+      {
+        "cellType": "personal_privacy_setting_permission_write_external_storage"
+      },
+      {
+        "cellType": "personal_privacy_setting_permission_camera"
+      },
+      {
+        "cellType": "personal_privacy_setting_permission_record_audio"
+      },
+      {
+        "cellType": "personal_privacy_setting_permission_bluetooth"
+      },
+      {
+        "cellType": "personal_privacy_setting_full_screen_setting"
+      }
+    ]
+  }
+]

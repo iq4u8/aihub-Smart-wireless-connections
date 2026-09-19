@@ -1,0 +1,51 @@
+{
+    "lightSceneTab-1": {
+        "feature": {
+            "iconfontStyle": "default_iconfont",
+        },
+        "container": {
+            "cornerRadius": "",
+            "backgroundColor": "@Color(B1)",
+            "borderWidth": "0",
+            "borderColor": ""
+        },
+        "themeIds": {
+            "A": {
+                "selectColor": "@Color(B1.N1)",
+                "selectFont": "T7-S",
+                "font": "T7-R",
+                "color": "@Color(B1.N3)",
+                "slipperWidth": "0",
+                "slipperHeight": "0",
+                "slipperColor": "",
+                "selectBackgroundColor":"",
+                "selectCornerRadius":""
+            },
+        },
+        "layout": {
+            "height": "P3+T7.h+P3",
+            "content": {
+                "A": {
+                    "left": {
+                        "to": "super",
+                        "side": "left",
+                        "offset": "P4-0.5P6"
+                    },
+                    "right": {
+                        "to": "super",
+                        "side": "right",
+                        "offset": "0.5P6-P4"
+                    },
+                    "top": {
+                        "to": "super",
+                        "side": "top"
+                    },
+                    "bottom": {
+                        "to": "super",
+                        "side": "bottom"
+                    },
+                },
+            }
+        }
+    }
+}

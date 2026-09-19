@@ -1,0 +1,113 @@
+{
+  "homeSceneTab-1": {
+    "bind": {
+        "homeSceneRecommendTab": "homeSceneRecommendTab-1"
+    }
+  },
+  "homeSceneTab-2": {
+    "bind": {
+        "homeSceneRecommendTab": "homeSceneRecommendTab-2"
+    },
+    "feature": {
+      "padding": "P3",
+      "showBgColor": true,
+    },
+    "container": {
+      "cornerRadius": "@Corner(C3_3)"
+    },
+    "themeIds": {
+      "A": {
+          "resize":2,
+          "tintColor": "#FFFFFF"
+      },
+      "B": {
+        "color": "#FFFFFF",
+        "font": "T6-S",
+        "textOverflow": 0,
+        "numberOfLines": 1
+      }
+    },
+    "layout": {
+      "height": "T2.h+T4.h+P4+P4",
+      "content": {
+        "A": {
+            "centerY": {
+                "to": "super",
+                "side": "centerY"
+            },
+            "left": {
+                "to": "super",
+                "side": "left",
+                "offset": "P4"
+            },
+            "height": "IC3",
+            "width": "IC3"
+        },
+        "B": {
+          "centerY": {
+            "to": "super",
+            "side": "centerY"
+          },
+          "left": {
+            "to": "A",
+            "side": "right",
+            "offset": "P3"
+          },
+          "right": {
+            "to": "super",
+            "side": "right",
+            "offset": "-P4"
+          },
+          "width":"@Range(20,172)",
+          "padWidth":"@Range(24,200)"
+        }
+      }
+    }
+  },
+  "homeSceneTab-3": {
+    "bind": {
+        "homeSceneRecommendTab": "homeSceneRecommendTab-3"
+    },
+    "feature": {
+      "padding": "P3",
+      "showBgColor": false,
+      "skinSwitch" : 1
+    },
+    "container": {
+      "cornerRadius": "@Corner(C3_1)",
+      "backgroundColor":"@Color(B3)"
+    },
+    "themeIds": {
+      "B": {
+        "color": "@Color(B3.N1)",
+        "font": "T4-S",
+        "textAlign": 1,
+        "textOverflow": 0,
+        "numberOfLines": 1
+      }
+    },
+    "layout": {
+      "height": "T4.h+24",
+      "content": {
+        "B": {
+          "left": {
+            "to": "super",
+            "side": "left",
+            "offset": "P4"
+          },
+          "right": {
+            "to": "super",
+            "side": "right",
+            "offset": "-P4"
+          },
+          "centerY": {
+            "to": "super",
+            "side": "centerY"
+          },
+          "width":"@Range(68,208)",
+          "padWidth":"@Range(72,252)"
+        }
+      }
+    }
+  }
+}

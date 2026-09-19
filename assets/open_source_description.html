@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        .header {
+            padding: 10px 0;
+            background: #e6f7ff;
+            font-size: 0;
+            overflow: hidden;
+        }
+
+        .header-item-large {
+            width: 50%;
+            text-align: center;
+            font-size: 40px;
+            color: #222;
+            padding: 0 10px;
+            float: left;
+        }
+
+        .header-item {
+            width: 50%;
+            text-align: center;
+            font-size: 40px;
+            color: #222;
+            padding: 0 10px;
+            float: left;
+        }
+
+        .item-single {
+            background: #fff;
+            padding: 10px 0;
+            overflow: hidden;
+        }
+
+        .item-both {
+            background: #eee;
+            padding: 10px 0;
+            overflow: hidden;
+        }
+
+        .link1 {
+            float: left;
+            font-size: 30px;
+            padding: 10px;
+            width: 50%;
+            color: #096dd9;
+            text-align: center;
+            word-wrap: break-word;
+        }
+
+        .link2 {
+            float: left;
+            padding: 0 10px;
+            width: 20%;
+            color: #096dd9;
+            text-align: center;
+            word-wrap: break-word;
+        }
+
+        .txt {
+            float: left;
+            padding: 0 10px;
+            width: 20%;
+            color: #595959;
+            text-align: center;
+            word-wrap: break-word;
+        }
+
+    </style>
+</head>
+
+<body>
+<script type="text/javascript">
+        var data = [
+            ["1", "Gson", "2.7", "2.9.0", "Apache v2.0", "https://github.com/google/gson", "https://www.apache.org/licenses/LICENSE-2.0"],
+            ["2", "recyclerview-swipe", "1.1.3?", "1.3.2", "Apache v2.0", "https://github.com/yanzhenjie/SwipeRecyclerView", "https://www.apache.org/licenses/LICENSE-2.0"],
+            ["3", "recyclerview-animators", "2.2.4", "3.0.0", "Apache v2.0", "https://github.com/wasabeef/recyclerview-animators", "https://www.apache.org/licenses/LICENSE-2.0"],
+            ["4", "SwitchButton", "1.4.2?", "2.0.0", "Apache v2.0", "https://github.com/kyleduo/SwitchButton", "https://www.apache.org/licenses/LICENSE-2.0"],
+            ["5", "Flexbox", "0.2.5", "1.1.1", "Apache v2.0", "https://github.com/google/flexbox-layout", "https://www.apache.org/licenses/LICENSE-2.0"],
+            ["6", "OpenSSL ", "1.1.1c", "1.1.1c", "Apache v2.0", "https://github.com/openssl/openssl", "https://www.apache.org/licenses/LICENSE-2.0"],
+            ["7", "Fastjson", "1.1.64.android", "1.1.71.android", "Apache v2.0", "https://github.com/alibaba/fastjson", "https://www.apache.org/licenses/LICENSE-2.0"],
+            ["8", "Eventbus", "2.4.0", "3.1.1", "Apache v2.0", "https://github.com/greenrobot/EventBus", "https://www.apache.org/licenses/LICENSE-2.0"],
+            ["9", "OKHttp", "3.12.3", "4.2.0", "Apache v2.0", "https://github.com/square/okhttp", "https://www.apache.org/licenses/LICENSE-2.0"],
+            ["10", "OKIO", "1.15.0", "2.4.0", "Apache v2.0", "https://github.com/square/okio", "https://www.apache.org/licenses/LICENSE-2.0"],
+            ["11", "RxJava", "2.1.7", "2.2.12", "Apache v2.0", "https://github.com/ReactiveX/RxJava", "https://www.apache.org/licenses/LICENSE-2.0"],
+            ["12", "lottie", "2.7.0", "3.0.1", "Apache v2.0", "https://github.com/airbnb/lottie-android", "https://www.apache.org/licenses/LICENSE-2.0"],
+            ["13", "systembartint", "1.0.3", "1.0.3", "Apache v2.0", "https://github.com/jgilfelt/SystemBarTint", "https://www.apache.org/licenses/LICENSE-2.0"],
+            ["14", "adapterdelegates3", "3.0.2", "3.1.0", "Apache v2.0", "https://github.com/sockeqwe/AdapterDelegates", "https://www.apache.org/licenses/LICENSE-2.0"],
+            ["15", "MPAndroidChart", "3.0.3", "3.1.0", "Apache v2.0", "https://github.com/PhilJay/MPAndroidChart", "https://www.apache.org/licenses/LICENSE-2.0"],
+            ["16", "TextLayoutBuilder", "1.4.0", "1.5.0", "Apache v2.0", "https://github.com/facebook/TextLayoutBuilder", "https://www.apache.org/licenses/LICENSE-2.0"],
+            ["17", "android-jsc", "r174650", "r174650", "BSD License", "https://github.com/facebook/android-jsc", "https://github.com/facebook/android-jsc/blob/master/LICENSE"],
+            ["18", "mqttv3", "1.2.2", "1.2.2", "EPL V2.0 & EDL V1.0", "https://github.com/eclipse/paho.mqtt.java", "https://github.com/eclipse/paho.mqtt.java/blob/v1.2.2/LICENSE"],
+            ["19", "Fresco", "1.13.0", "2.6.0", "MIT Licensed", "https://github.com/facebook/fresco", "https://github.com/facebook/fresco/blob/master/LICENSE"],
+            ["20", "React-native", "0.51.1", "0.60.5", "MIT licensed", "https://github.com/facebook/react-native", "https://github.com/facebook/react-native/blob/master/LICENSE"],
+            ["21", "DSBridge-Android", "3.0.0", "3.0.0", "MIT licensed", "https://github.com/wendux/DSBridge-Android", "https://opensource.org/licenses/mit-license.php"],
+            ["22", "grpc", "1.4.0", "1.22.1", "Apache v2.0", "https://github.com/grpc/grpc", "https://www.apache.org/licenses/LICENSE-2.0"],
+            ["23", "libevent", "2.0.22", "release-2.1.11-stable", "3-clause BSD license. ", "https://github.com/libevent/libevent", "https://github.com/libevent/libevent"],
+            ["24", "Mars", "1.2.1", "1.3.0", "MIT license", "https://github.com/Tencent/mars", "https://github.com/Tencent/mars/blob/master/LICENSE"],
+            ["25", "MMKV", "1.0.13", "1.0.23", "BSD 3-Clause License", "https://github.com/Tencent/MMKV", "https://github.com/Tencent/MMKV/blob/master/LICENSE.TXT"],
+            ["26", "Matter", "1.0.0", "1.0.0", "Apache v2.0", "https://github.com/project-chip/connectedhomeip", "https://github.com/project-chip/connectedhomeip/blob/master/LICENSE"],
+            ["27", "LDNetDiagnoService_Android", "1.1.2", "1.1.2", "No open source", "https://github.com/Lede-Inc/LDNetDiagnoService_Android", "https://github.com/Lede-Inc/LDNetDiagnoService_Android"],
+            ["28", "LoopView", "0.1.1", "0.2.1", "Apache v2.0", "https://github.com/weidongjian/androidWheelView", "https://github.com/weidongjian/androidWheelView"],
+            ["29", "grpc-java", "1.4.0", "1.23.0", "Apache v2.0", "https://github.com/grpc/grpc-java", "https://github.com/grpc/grpc-java/blob/master/LICENSE"],
+            ["30", "react-native-svg", "9.9.4", "9.9.4", "MIT licensed", "https://github.com/react-native-community/react-native-svg", "https://github.com/react-native-community/react-native-svg/blob/master/LICENSE"],
+            ["31", "react-native-image-picker", "1.1.0", "1.1.0", "MIT licensed", "https://github.com/react-native-community/react-native-image-picker", "https://github.com/react-native-community/react-native-image-picker/blob/master/LICENSE.md"],
+            ["32", "FastDDS", "2.6.0", "2.6.0", "Apache v2.0", "https://github.com/eProsima/Fast-DDS", "https://github.com/eProsima/Fast-DDS/blob/master/LICENSE"],
+            ["33", "commons-compress", "1.19", "1.19", "Apache v2.0", "https://github.com/apache/commons-compress", "https://github.com/apache/commons-compress/blob/master/LICENSE.txt"],
+            ["34", "soloader", "0.6.0", "0.10.4+", "Apache v2.0", "https://github.com/facebook/SoLoader", "https://github.com/facebook/SoLoader/blob/master/LICENSE"],
+            ["35", "bouncycastle", "1.62", "1.62", "https://github.com/bcgit/bc-java/blob/master/LICENSE.html", "https://github.com/bcgit/bc-java", "https://github.com/bcgit/bc-java/blob/master/LICENSE.html"],
+            ["36", "Android-BluetoothKit", "1.4.0", "1.4.0", "Apache v2.0", "https://github.com/dingjikerbo/Android-BluetoothKit", "https://github.com/dingjikerbo/Android-BluetoothKit/blob/master/LICENSE"],
+            ["37", "Android-nRF-Mesh-Library", "1.2.1", "2.0.5", "BSD 3-Clause License", "https://github.com/NordicSemiconductor/Android-nRF-Mesh-Library", "https://github.com/NordicSemiconductor/Android-nRF-Mesh-Library/blob/master/LICENSE"],
+            ["38", "Kotlin", "", "", "Apache v2.0", "", "https://www.apache.org/licenses/LICENSE-2.0"],
+            ["39", "androidx", "", "", "Apache v2.0", "https://github.com/androidx/androidx", "https://github.com/androidx/androidx/blob/androidx-main/LICENSE.txt"],
+            ["40","Matrix","0.6.0","","BSD 3-Clause License","https://github.com/Tencent/matrix/tree/master/matrix/matrix-android/matrix-trace-canary","https://opensource.org/licenses/BSD-3-Clause"],
+            ["41","mbedtls","2.16.2","2.16.3","Apache v2.0","https://github.com/ARMmbed/mbedtls","https://github.com/ARMmbed/mbedtls/blob/mbedtls-2.16.2/LICENSE"],
+            ["42","libuv","1.23.2","1.33.1","MIT license","https://github.com/libuv/libuv","https://github.com/libuv/libuv/blob/v1.23.2/LICENSE"],
+            ["43","libsrtp","2.2.0","2.2.0","https://github.com/cisco/libsrtp/blob/v2.2.0/LICENSE","https://github.com/cisco/libsrtp","https://github.com/cisco/libsrtp/blob/v2.2.0/LICENSE"],
+            ["44","cjson","1.7.8","1.7.12","MIT license","https://github.com/DaveGamble/cJSON","https://github.com/DaveGamble/cJSON/blob/v1.7.8/LICENSE"],
+            ["45","kcp","1.4","1.4","MIT license","https://github.com/skywind3000/kcp","https://github.com/skywind3000/kcp/blob/master/LICENSE"],
+            ["46","curl","7.66.0","7.67.0","https://curl.haxx.se/docs/copyright.html","https://github.com/curl/curl","https://curl.haxx.se/docs/copyright.html"],
+            ["47","FFmpeg","4.1.4","4.2.1","LGPLv2.1","https://git.ffmpeg.org/ffmpeg.git","https://www.gnu.org/licenses/old-licenses/lgpl-2.1.html"],
+            ["48","rapidjson","1.1.0","1.1.0","MIT license","https://github.com/Tencent/rapidjson","https://github.com/Tencent/rapidjson/blob/master/license.txt"],
+            ["49","opencv","2.4.11","","3-clause BSD License","https://github.com/opencv/opencv","https://github.com/opencv/opencv/blob/2.4.11/LICENSE"],
+            ["50","restring","1.0.0","1.0.0","Apache v2.0","https://github.com/hamidness/restring","https://github.com/hamidness/restring#license"],
+            ["51","commons-text","1.8","1.8","Apache v2.0","https://github.com/apache/commons-text","https://github.com/apache/commons-text/blob/commons-text-1.8/LICENSE.txt"],
+            ["52","Cronet","80.0.3949.0","80.0.3949.0","3-clause BSD license","https://chromium.googlesource.com/chromium/src/+/refs/tags/80.0.3949.0/components/cronet/","https://chromium.googlesource.com/chromium/src/+/refs/tags/80.0.3949.0/LICENSE"],
+            ["53","xCrash","2.4.9","2.4.9","MIT license","https://github.com/iqiyi/xCrash","https://github.com/iqiyi/xCrash/blob/v2.4.9/LICENSE"],
+            ["54","v8","7.5.288.23","7.5.288.23","3-clause BSD License","https://github.com/v8/v8","https://github.com/v8/v8/blob/7.5.288/LICENSE"],
+            ["55","SQLCipher","4.4.0","4.4.0","3-clause BSD License","https://github.com/sqlcipher/sqlcipher","https://github.com/sqlcipher/sqlcipher/blob/master/LICENSE"],
+            ["56","react-native-screens", "2.9.0.android", "","MIT license", "https://github.com/software-mansion/react-native-screens","https://github.com/software-mansion/react-native-screens/blob/master/LICENSE"],
+            ["57","react-native-gesture-handler","1.3.0.android","","MIT license","https://github.com/software-mansion/react-native-gesture-handler","https://github.com/software-mansion/react-native-gesture-handler/blob/master/LICENSE"],
+            ["58","react-native-safe-area-context","3.0.7.android","","MIT license","https://github.com/th3rdwave/react-native-safe-area-context","https://github.com/th3rdwave/react-native-safe-area-context/blob/master/LICENSE"],
+            ["59","react-native-reanimated","1.9.0.android","","MIT license","https://github.com/software-mansion/react-native-reanimated","https://github.com/software-mansion/react-native-reanimated/blob/master/LICENSE"],
+            ["60","react-native-masked-view","0.1.10.android","","MIT license","https://github.com/react-native-community/react-native-masked-view","https://opensource.org/licenses/MIT"],
+            ["61","architecture-samples","","","Apache-2.0 License","https://github.com/android/architecture-samples","https://github.com/android/architecture-samples/blob/master/LICENSE"],
+            ["62","exoplayer","2.12.0","2.12.0","Apache-2.0 License","https://github.com/google/ExoPlayer","https://github.com/google/ExoPlayer/blob/release-v2/LICENSE"],
+            ["63","react-native-blur","3.3.1","3.3.1","MIT license","https://github.com/Kureev/react-native-blur","https://github.com/Kureev/react-native-blur/blob/master/LICENSE"],
+            ["64","BlurView","1.6.3","1.6.3","Apache-2.0 License","https://github.com/Dimezis/BlurView","https://github.com/Dimezis/BlurView/blob/master/LICENSE.md"],
+            ["65","retrofit","2.9.0","2.9.0","Apache-2.0 License","https://github.com/square/retrofit","https://github.com/square/retrofit/blob/master/LICENSE.txt"],
+            ["66","aspectjx","2.0.8","2.0.8","Apache-2.0 License","https://github.com/HujiangTechnology/gradle_plugin_android_aspectjx","https://github.com/HujiangTechnology/gradle_plugin_android_aspectjx/blob/master/LICENSE"],
+            ["67","Manrope","","","Open Font License","https://fonts.google.com/specimen/Manrope","https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL"],
+            ["68","react-native-linear-gradient","","","MIT","https://github.com/react-native-linear-gradient/react-native-linear-gradient","https://github.com/react-native-linear-gradient/react-native-linear-gradient/blob/master/LICENSE"],
+            ["69","libyuv","1789","1789","3-clause BSD License","https://chromium.googlesource.com/libyuv/libyuv/","https://chromium.googlesource.com/libyuv/libyuv/+/refs/heads/main/LICENSE"],
+            ["70","xhook","1.2.0","1.2.0","MIT","https://github.com/iqiyi/xhook/","https://github.com/iqiyi/xHook/blob/master/LICENSE"],
+            ["71","openH264","2.1.1","2.1.1	","BSD 2-Clause","https://github.com/cisco/openh264","https://github.com/cisco/openh264/blob/master/LICENSE"],
+            ["72", "BaseRecyclerViewAdapterHelper", "2.9.30", "2.9.30", "MIT", "https://github.com/CymChad/BaseRecyclerViewAdapterHelper", "https://github.com/CymChad/BaseRecyclerViewAdapterHelper/blob/master/LICENSE"],
+            ["73", "opus", "1.3.1", "1.3.1", "BSD", "https://www.opus-codec.org/", "https://opus-codec.org/license/"],
+            ["74", "sbc", "utils-3.36", "utils-3.36", "LGPLv2.1", "https://github.com/bluez/bluez/tree/utils-3.36/sbc", "https://github.com/bluez/bluez/blob/master/LICENSES/preferred/LGPL-2.1"],
+            ["75", "Hilt", "2.36", "2.36", "Apache-2.0 License", "https://github.com/google/dagger/tree/dagger-2.36/java/dagger/hilt/android", "https://github.com/google/dagger/blob/master/LICENSE.txt"],
+            ["76", "spdlog", "1.x", "1.x", "MIT", "https://github.com/gabime/spdlog", "https://github.com/gabime/spdlog/blob/v1.x/LICENSE"],
+            ["77", "ncnn", "20211208", "20211208", "BSD 3-Clause License", "https://github.com/Tencent/ncnn", "https://github.com/Tencent/ncnn/blob/master/LICENSE.txt"],
+            ["78", "Room", "2.4.0", "2.4.0", "Apache v2.0", "https://github.com/androidx/androidx/tree/androidx-main/room", "https://github.com/androidx/androidx/blob/androidx-main/LICENSE.txt"],
+            ["79", "protobuf", "3.19.1", "3.19.1", "Google Inc", "https://github.com/protocolbuffers/protobuf/tree/v3.19.1/java", "https://github.com/protocolbuffers/protobuf/blob/v3.19.1/LICENSE"],
+            ["80", "Java-WebSocket", "1.5.2", "1.5.2", "MIT License", "https://github.com/TooTallNate/Java-WebSocket", "https://github.com/TooTallNate/Java-WebSocket/blob/master/LICENSE"],
+            ["81", "slf4j-simple", "1.7.25", "1.7.25", "MIT License", "https://www.slf4j.org/api/org/slf4j/simple/SimpleLogger.html", "https://www.slf4j.org/license.html"],
+            ["82", "immersionbar", "3.0.0", "3.0.0", "Apache v2.0", "https://github.com/gyf-dev/ImmersionBar", "https://github.com/gyf-dev/ImmersionBar/blob/master/LICENSE"],
+            ["83", "CameraX", "1.0.0", "1.0.0", "Apache v2.0", "https://github.com/androidx/androidx/tree/androidx-main/camera", "https://github.com/androidx/androidx/blob/androidx-main/LICENSE.txt"],
+            ["84", "zxing", "3.3.0", "3.4.0", "Apache v2.0", "https://github.com/zxing/zxing", "https://github.com/zxing/zxing/blob/master/LICENSE"],
+            ["85", "WorkManager", "2.8.0", "2.8.0", "Apache v2.0", "https://github.com/androidx/androidx/tree/androidx-main/work", "https://github.com/androidx/androidx/blob/androidx-main/LICENSE.txt"],
+        ]
+        //绘制单个div
+        function setDiv(i) {
+            if (i % 2 == 0) {
+                return '<div class="item-single">'
+                    + '<a href="'+data[i][5]+'" class="link1">'+data[i][1]+'</a>'
+                    + '<a href="'+data[i][6]+'" class="link1">'+data[i][4]+'</a>'
+                    + '</div>'
+            } else {
+                return '<div class="item-both">'
+                    + '<a href="'+data[i][5]+'" class="link1">'+data[i][1]+'</a>'
+                    + '<a href="'+data[i][6]+'" class="link1">'+data[i][4]+'</a>'
+                    + '</div>'
+            }
+        }
+
+        function getnoApplicationData() {
+            var html = ''
+            for (var i = 0; i < data.length; i++) {
+                html += setDiv(i)
+            }
+            document.write(html)
+        }
+        document.write('<div class="header">'
+            + '<span class="header-item-large">Name</span>'
+            + '<span class="header-item-large">Licence</span>'
+            + '</div>')
+        window.onload = getnoApplicationData()
+
+</script>
+</body>
+
+</html>

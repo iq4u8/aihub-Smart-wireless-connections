@@ -1,0 +1,174 @@
+{
+    "lightSceneNav-1": {
+        "feature": {
+            "iconfontStyle": "default_iconfont",
+            "backgroundColor": "@Color(B1)",
+        },
+        "themeIds": {
+           "A":{
+               "color":"@Color(B1.N3)",
+               "font":"T7-R",
+               "textOverflow": 0,
+               "numberOfLines": 1
+           },
+           "B":{
+               "color":"@Color(B1.N4)",
+               "font":"IC2-R",
+           }
+        },
+        "layout": {
+            "height": "P1+P1+I4",
+            "content": {
+                "A":{
+                    "left": {
+                        "to": "super",
+                        "side": "left",
+                        "offset": "P4"
+                    },
+                    "right": {
+                        "to": "B",
+                        "side": "left"
+                    },
+                    "centerY": {
+                        "to": "super",
+                        "side": "centerY",
+                        "offset": "P0"
+                    },
+                    "height": "T7.h"
+                },
+                "B":{
+                    "left": {
+                        "to": "A",
+                        "side": "right",
+                        "offset": "P0"
+                    },
+                    "right": {
+                        "to": "super",
+                        "side": "right",
+                        "offset":"@Max(P0)"
+                    },
+                    "centerY": {
+                        "to": "super",
+                        "side": "centerY",
+                        "offset": "P0"
+                    },
+                    "width":"IC2",
+                    "height":"IC2"
+                }
+            }
+        }
+    },
+    "lightSceneNav-2": {
+        "feature": {
+            "iconfontStyle": "style_2_iconfont",
+            "backgroundColor": "@Color(B2)"
+        },
+        "themeIds": {
+           "A":{
+               "color":"@Color(B2.N1)",
+               "font":"T5-S",
+               "textOverflow": 0,
+               "numberOfLines": 1
+           },
+           "B":{
+               "color":"@Color(B2.N1)",
+               "font":"IC2-R",
+           }
+        },
+        "layout": {
+            "height": "P1+P1+I4",
+            "content": {
+                "A":{
+                    "left": {
+                        "to": "super",
+                        "side": "left",
+                        "offset": "P4"
+                    },
+                    "right": {
+                        "to": "B",
+                        "side": "left"
+                    },
+                    "centerY": {
+                        "to": "super",
+                        "side": "centerY",
+                        "offset": "P0"
+                    },
+                    "height": "T5.h"
+                },
+                "B":{
+                    "left": {
+                        "to": "A",
+                        "side": "right",
+                        "offset": "P0"
+                    },
+                    "right": {
+                        "to": "super",
+                        "side": "right",
+                        "offset":"@Max(P0)"
+                    },
+                    "centerY": {
+                        "to": "super",
+                        "side": "centerY",
+                        "offset": "P0"
+                    },
+                    "width":"IC2",
+                    "height":"IC2"
+                }
+            }
+        }
+    },
+    "lightSceneNav-3": {
+        "feature": {
+            "iconfontStyle": "style_3_iconfont",
+            "backgroundColor": "@Color(B1)"
+        },
+        "themeIds": {
+           "A":{
+               "color":"@Color(B1.N1)",
+               "font":"T9-S",
+               "textOverflow": 0,
+               "numberOfLines": 1
+           },
+           "B":{
+               "color":"@Color(B1.N1)",
+               "font":"IC3-R",
+           }
+        },
+        "layout": {
+            "height": "I4+P1+P1",
+            "content": {
+                "B":{
+                    "left": {
+                        "to": "super",
+                        "side": "left",
+                        "offset": "P4"
+                    },
+                    "centerY": {
+                        "to": "super",
+                        "side": "centerY",
+                        "offset": "P0"
+                    },
+                    "width":"IC3",
+                    "height":"IC3"
+                },
+                "A":{
+                    "left": {
+                        "to": "B",
+                        "side": "right",
+                        "offset": "P2"
+                    },
+                    "right": {
+                        "to": "super",
+                        "side": "right"
+                    },
+                    "centerY": {
+                        "to": "super",
+                        "side": "centerY",
+                        "offset": "P0"
+                    },
+                    "height": "T9.h"
+                }
+            }
+        }
+    }
+}

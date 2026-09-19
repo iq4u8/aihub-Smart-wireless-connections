@@ -1,0 +1,1 @@
+{"getNetworkType":{"success":{"networkType":"networkType","signalStrength":"signalStrength"}},"onNetworkStatusChange":{"callback":{"isConnected":"isConnected","networkType":"networkType"}},"offNetworkStatusChange":{"callback":{"isConnected":"isConnected","networkType":"networkType"}}}

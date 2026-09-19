@@ -1,0 +1,722 @@
+{
+  "homeDeviceCard-1": {
+  },
+  "homeDeviceCard-2": {
+    "feature": {
+      "column": 2,
+      "padColumn": 0,
+      "minWidth": 121,
+      "padMinWidth": 228,
+      "bleOfflineColor": "@Color(B3.N4)",
+      "switchOpenColor": "@Color(M3)",
+      "switchCloseColor": "@Color(B3.N6)",
+      "iconfontStyle": "style_2_iconfont"
+    },
+    "container": {
+      "cornerRadius": "@Corner(C3_2)",
+      "backgroundColor": "@Color(B3)",
+      "borderWidth": "",
+      "borderColor": ""
+    },
+    "themeIds": {
+      "A": {
+        "resize": "3"
+      },
+      "B": {
+        "font": "IC4",
+        "textAlign": 1
+      },
+      "C": {
+        "color": "@Color(B3.N1)",
+        "font": "T6-S",
+        "textAlign": 1,
+        "textOverflow": 0
+      },
+      "D": {
+        "color": "@Color(B3.N6)",
+        "font": "IC1",
+        "textAlign": 1
+      },
+      "E": {
+        "color": "@Color(B3.N3)",
+        "font": "T1-R",
+        "textOverflow": 0
+      },
+      "F": {
+        "font": "T1-R",
+        "textOverflow": 0
+      },
+      "G": {
+        "color": "@Color(B3.N6)",
+        "font": "IC1",
+        "textAlign": 1
+      },
+      "H": {
+        "color": "@Color(B3.N6)",
+        "font": "IC1",
+        "textAlign": 1
+      },
+      "I": {
+        "font": "IC4",
+        "textAlign": 1
+      }
+    },
+    "layout": {
+      "height": "P5+I6+P2+T6.h+T1.h+P1+IC4+P2",
+      "content": {
+        "A": {
+          "top": {
+            "to": "super",
+            "side": "top",
+            "offset": "P5"
+          },
+          "centerX": {
+            "to": "super",
+            "side": "centerX",
+            "offset": "0"
+          },
+          "width": "I6",
+          "height": "I6"
+        },
+        "B": {
+          "centerX": {
+            "to": "super",
+            "side": "centerX",
+            "offset": "P0"
+          },
+          "bottom": {
+            "to": "super",
+            "side": "bottom",
+            "offset": "-P2"
+          },
+          "height": "IC4",
+          "width": "IC4"
+        },
+        "N": {
+          "centerX": {
+            "to": "super",
+            "side": "centerX",
+            "offset": "P0"
+          },
+          "bottom": {
+            "to": "super",
+            "side": "bottom",
+            "offset": "-P2"
+          },
+          "height": "IC4",
+          "width": "IC4"
+        },
+        "C": {
+          "centerX": {
+            "to": "super",
+            "side": "centerX",
+            "offset": "0",
+            "bind": [
+              "D"
+            ]
+          },
+          "top": {
+            "to": "A",
+            "side": "bottom",
+            "offset": "P2"
+          },
+          "right": {
+            "to": "D",
+            "side": "left",
+            "offset": "P0"
+          },
+          "left": {
+            "to": "super",
+            "side": "left",
+            "offset": "@Min(P3)"
+          },
+          "height": "T6.h"
+        },
+        "D": {
+          "right": {
+            "to": "super",
+            "side": "right",
+            "offset": "@Max(-P3)"
+          },
+          "centerY": {
+            "to": "C",
+            "side": "centerY",
+            "offset": "P0"
+          },
+          "weightH": 10,
+          "height": "IC1"
+        },
+        "E": {
+          "left": {
+            "to": "super",
+            "side": "left",
+            "offset": "@Min(P3)"
+          },
+          "top": {
+            "to": "C",
+            "side": "bottom",
+            "offset": "P0"
+          },
+          "centerX": {
+            "to": "super",
+            "side": "centerX",
+            "offset": "0",
+            "bind": [
+              "H",
+              "F"
+            ]
+          },
+          "height": "T1.h",
+          "width": "@Min(P6)"
+        },
+        "F": {
+          "top": {
+            "to": "C",
+            "side": "bottom",
+            "offset": "P0"
+          },
+          "left": {
+            "to": "H",
+            "side": "right",
+            "offset": "P0"
+          },
+          "right": {
+            "to": "super",
+            "side": "right",
+            "offset": "@Max(-P3)"
+          },
+          "weightH": 5,
+          "height": "T1.h"
+        },
+        "G": {
+          "right": {
+            "to": "super",
+            "side": "right",
+            "offset": "-P2"
+          },
+          "top": {
+            "to": "super",
+            "side": "top",
+            "offset": "P2"
+          },
+          "weightH": 5,
+          "height": "IC1"
+        },
+        "H": {
+          "left": {
+            "to": "E",
+            "side": "right",
+            "offset": "P0"
+          },
+          "centerY": {
+            "to": "F",
+            "side": "centerY",
+            "offset": "P0"
+          },
+          "weightH": 15,
+          "height": "IC1"
+        },
+        "I": {
+          "centerX": {
+            "to": "super",
+            "side": "centerX",
+            "offset": "P0"
+          },
+          "bottom": {
+            "to": "super",
+            "side": "bottom",
+            "offset": "-P2"
+          },
+          "height": "IC4",
+          "width": "IC4"
+        }
+      }
+    }
+  },
+  "homeDeviceCard-3": {
+    "feature": {
+      "column": 2,
+      "padColumn": 0,
+      "minWidth": 121,
+      "padMinWidth": 230,
+      "bleOfflineColor": "@Color(B3.N4)",
+      "switchOpenColor": "@Color(M3)",
+      "switchCloseColor": "@Color(B3.N6)",
+      "iconfontStyle": "style_3_iconfont"
+    },
+    "container": {
+      "cornerRadius": "@Corner(C3_2)",
+      "backgroundColor": "@Color(B3)",
+      "borderWidth": "",
+      "borderColor": ""
+    },
+    "themeIds": {
+      "A": {
+        "resize": "3"
+      },
+      "B": {
+        "font": "IC5",
+        "textAlign": 1
+      },
+      "C": {
+        "color": "@Color(B3.N1)",
+        "font": "T6-S",
+        "textOverflow": 0
+      },
+      "D": {
+        "color": "@Color(B3.N6)",
+        "font": "IC1",
+        "textAlign": 1
+      },
+      "E": {
+        "color": "@Color(B3.N3)",
+        "font": "T1-R",
+        "textOverflow": 0
+      },
+      "F": {
+        "font": "T1-R",
+        "textOverflow": 0
+      },
+      "G": {
+        "color": "@Color(B3.N6)",
+        "font": "IC1",
+        "textAlign": 1
+      },
+      "H": {
+        "color": "@Color(B3.N6)",
+        "font": "IC1",
+        "textAlign": 1
+      },
+      "I": {
+        "font": "IC5",
+        "textAlign": 1
+      }
+    },
+    "layout": {
+      "height": "P4+P4+I5+56+T6.h+T1.h",
+      "content": {
+        "A": {
+          "left": {
+            "to": "super",
+            "side": "left",
+            "offset": "P4"
+          },
+          "top": {
+            "to": "super",
+            "side": "top",
+            "offset": "P4"
+          },
+          "width": "I5",
+          "height": "I5"
+        },
+        "B": {
+          "right": {
+            "to": "super",
+            "side": "right",
+            "offset": "-P4"
+          },
+          "top": {
+            "to": "super",
+            "side": "top",
+            "offset": "P4"
+          },
+          "height": "IC5"
+        },
+        "N": {
+          "right": {
+            "to": "super",
+            "side": "right",
+            "offset": "-P4"
+          },
+          "top": {
+            "to": "super",
+            "side": "top",
+            "offset": "P4"
+          },
+          "width": "IC5",
+          "height": "IC5"
+        },
+        "C": {
+          "bottom": {
+            "to": "super",
+            "side": "bottom",
+            "offset": "-P4-T1.h"
+          },
+          "left": {
+            "to": "super",
+            "side": "left",
+            "offset": "P4"
+          },
+          "right": {
+            "to": "D",
+            "side": "left",
+            "offset": "@Max(P0)"
+          },
+          "height": "T6.h"
+        },
+        "D": {
+          "left": {
+            "to": "C",
+            "side": "right",
+            "offset": "P0"
+          },
+          "right": {
+            "to": "super",
+            "side": "right",
+            "offset": "@Max(-P3)"
+          },
+          "centerY": {
+            "to": "C",
+            "side": "centerY",
+            "offset": "P0"
+          },
+          "weightH": 10,
+          "height": "IC1"
+        },
+        "E": {
+          "left": {
+            "to": "super",
+            "side": "left",
+            "offset": "P4"
+          },
+          "top": {
+            "to": "C",
+            "side": "bottom",
+            "offset": "P0"
+          },
+          "right": {
+            "to": "H",
+            "side": "left",
+            "offset": "@Max(P0)"
+          },
+          "height": "T1.h",
+          "width": "@Min(P6)"
+        },
+        "F": {
+          "top": {
+            "to": "C",
+            "side": "bottom",
+            "offset": "P0"
+          },
+          "left": {
+            "to": "H",
+            "side": "right",
+            "offset": "P0"
+          },
+          "right": {
+            "to": "G",
+            "side": "left",
+            "offset": "@Max(P0)"
+          },
+          "weightH": 20,
+          "height": "T1.h"
+        },
+        "G": {
+          "right": {
+            "to": "super",
+            "side": "right",
+            "offset": "-P3"
+          },
+          "centerY": {
+            "to": "F",
+            "side": "centerY",
+            "offset": "P0"
+          },
+          "weightH": 30,
+          "height": "IC1"
+        },
+        "H": {
+          "left": {
+            "to": "E",
+            "side": "right",
+            "offset": "P0"
+          },
+          "right": {
+            "to": "F",
+            "side": "left",
+            "offset": "P0"
+          },
+          "centerY": {
+            "to": "F",
+            "side": "centerY",
+            "offset": "P0"
+          },
+          "weightH": 35,
+          "height": "IC1"
+        },
+        "I": {
+          "right": {
+            "to": "super",
+            "side": "right",
+            "offset": "-P4"
+          },
+          "top": {
+            "to": "super",
+            "side": "top",
+            "offset": "P4"
+          },
+          "height": "IC5"
+        }
+      }
+    }
+  },
+  "homeDeviceCard-4": {
+    "feature": {
+      "column": 2,
+      "padColumn": 0,
+      "minWidth": 121,
+      "padMinWidth": 228,
+      "bleOfflineColor": "@Color(B3.N4)",
+      "switchOpenColor": "@Color(M3)",
+      "switchCloseColor": "@Color(B3.N6)",
+      "iconfontStyle": "style_2_iconfont",
+      "isNoStateButton": true
+    },
+    "container": {
+      "cornerRadius": "@Corner(C3_2)",
+      "backgroundColor": "@Color(B3)",
+      "borderWidth": "",
+      "borderColor": ""
+    },
+    "themeIds": {
+      "A": {
+        "resize": "3"
+      },
+      "C": {
+        "color": "@Color(B3.N1)",
+        "font": "T6-S",
+        "textAlign": 1,
+        "textOverflow": 0
+      },
+      "D": {
+        "color": "@Color(B3.N6)",
+        "font": "IC1",
+        "textAlign": 1
+      },
+      "E": {
+        "color": "@Color(B3.N3)",
+        "font": "T1-R",
+        "textOverflow": 0
+      },
+      "F": {
+        "font": "T1-R",
+        "textOverflow": 0
+      },
+      "G": {
+        "color": "@Color(B3.N6)",
+        "font": "IC1",
+        "textAlign": 1
+      },
+      "H": {
+        "color": "@Color(B3.N6)",
+        "font": "IC1",
+        "textAlign": 1
+      },
+      "I": {
+        "font": "IC4",
+        "textAlign": 1
+      },
+      "J": {
+        "color": "@Color(B3.N1)",
+        "font": "IC3",
+        "textAlign": 1
+      },
+      "K": {
+        "color": "@Color(B3.N1)",
+        "font": "IC3",
+        "textAlign": 1
+      },
+      "L": {
+        "": ""
+      }
+    },
+    "layout": {
+      "height": "P5+I6+P2+T6.h+T1.h+P1+IC4+P2",
+      "content": {
+        "A": {
+          "top": {
+            "to": "super",
+            "side": "top",
+            "offset": "P5"
+          },
+          "centerX": {
+            "to": "super",
+            "side": "centerX",
+            "offset": "0"
+          },
+          "width": "I6",
+          "height": "I6"
+        },
+        "C": {
+          "centerX": {
+            "to": "super",
+            "side": "centerX",
+            "offset": "0",
+            "bind": [
+              "D"
+            ]
+          },
+          "top": {
+            "to": "A",
+            "side": "bottom",
+            "offset": "P2"
+          },
+          "right": {
+            "to": "D",
+            "side": "left",
+            "offset": "P0"
+          },
+          "left": {
+            "to": "super",
+            "side": "left",
+            "offset": "@Min(P3)"
+          },
+          "height": "T6.h"
+        },
+        "D": {
+          "right": {
+            "to": "super",
+            "side": "right",
+            "offset": "@Max(-P3)"
+          },
+          "centerY": {
+            "to": "C",
+            "side": "centerY",
+            "offset": "P0"
+          },
+          "weightH": 10,
+          "height": "IC1"
+        },
+        "E": {
+          "left": {
+            "to": "super",
+            "side": "left",
+            "offset": "@Min(P3)"
+          },
+          "top": {
+            "to": "C",
+            "side": "bottom",
+            "offset": "P0"
+          },
+          "centerX": {
+            "to": "super",
+            "side": "centerX",
+            "offset": "0",
+            "bind": [
+              "H",
+              "F"
+            ]
+          },
+          "height": "T1.h",
+          "width": "@Min(P6)"
+        },
+        "F": {
+          "top": {
+            "to": "C",
+            "side": "bottom",
+            "offset": "P0"
+          },
+          "left": {
+            "to": "H",
+            "side": "right",
+            "offset": "P0"
+          },
+          "right": {
+            "to": "super",
+            "side": "right",
+            "offset": "@Max(-P3)"
+          },
+          "weightH": 5,
+          "height": "T1.h"
+        },
+        "G": {
+          "right": {
+            "to": "super",
+            "side": "right",
+            "offset": "-P2"
+          },
+          "top": {
+            "to": "super",
+            "side": "top",
+            "offset": "P2"
+          },
+          "weightH": 5,
+          "height": "IC1"
+        },
+        "H": {
+          "left": {
+            "to": "E",
+            "side": "right",
+            "offset": "P0"
+          },
+          "centerY": {
+            "to": "F",
+            "side": "centerY",
+            "offset": "P0"
+          },
+          "weightH": 15,
+          "height": "IC1"
+        },
+        "I": {
+          "centerX": {
+            "to": "super",
+            "side": "centerX",
+            "offset": "P0"
+          },
+          "bottom": {
+            "to": "super",
+            "side": "bottom",
+            "offset": "-P2"
+          },
+          "height": "IC4",
+          "width": "IC4"
+        },
+        "J": {
+          "right": {
+            "to": "super",
+            "side": "centerX",
+            "offset": "-0.5"
+          },
+          "bottom": {
+            "to": "super",
+            "side": "bottom",
+            "offset": "-P2"
+          },
+          "height": "IC4",
+          "width": "60",
+          "padWidth": "82"
+        },
+        "K": {
+          "left": {
+            "to": "super",
+            "side": "centerX",
+            "offset": "0.5"
+          },
+          "bottom": {
+            "to": "super",
+            "side": "bottom",
+            "offset": "-P2"
+          },
+          "height": "IC4",
+          "width": "60",
+          "padWidth": "82"
+        },
+        "L": {
+          "centerX": {
+            "to": "super",
+            "side": "centerX",
+            "offset": "P0"
+          },
+          "bottom": {
+            "to": "super",
+            "side": "bottom",
+            "offset": "-P2"
+          },
+          "height": "IC4",
+          "width": "120",
+          "padWidth": "168"
+        }
+      }
+    }
+  }
+}

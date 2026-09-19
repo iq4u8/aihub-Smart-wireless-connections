@@ -1,0 +1,142 @@
+{
+    "sceneSceneTab-1": {
+    },
+    "sceneSceneTab-2": {
+        "feature": {
+            "iconfontStyle": "style_2_iconfont"
+        },
+        "container": {
+            "cornerRadius": "",
+            "backgroundColor": "@Color(B1)",
+            "borderWidth": "0",
+            "borderColor": ""
+        },
+        "themeIds": {
+            "A": {
+                "selectColor": "@Color(B1.N1)",
+                "selectFont": "T7-S",
+                "font": "T7-R",
+                "color": "@Color(B1.N3)",
+                "slipperWidth": "12",
+                "slipperHeight": "3",
+                "slipperColor": "@Color(M1)",
+                "selectBackgroundColor":"",
+                "selectCornerRadius":"",
+                "itemPadding":"P6"
+            },
+            "B": {
+                "color":"@Color(B1.N3)",
+                "font":"IC3",
+                "textAlign": 1
+            }
+        },
+        "layout": {
+            "height": "P3+T7.h+P3",
+            "content": {
+                "A": {
+                    "top": {
+                        "to": "super",
+                        "side": "top",
+                        "offset": "P0"
+                    },
+                    "bottom": {
+                        "to": "super",
+                        "side": "bottom",
+                        "offset": "P0"
+                    },
+                    "left": {
+                        "to": "super",
+                        "side": "left",
+                        "offset": "P4-0.5P6"
+                    },
+                    "right": {
+                        "to": "B",
+                        "side": "left",
+                        "offset": "P0"
+                    },
+                    "height": "",
+                    "width": ""
+                },
+                "B": {
+                    "right": {
+                        "to": "super",
+                        "side": "right",
+                        "offset": "-P5"
+                    },
+                    "centerY": {
+                        "to": "super",
+                        "side": "centerY",
+                        "offset": "P0"
+                    }
+                }
+            }
+        }
+    },
+
+    "sceneSceneTab-3": {
+        "feature": {
+            "iconfontStyle": "default_iconfont"
+        },
+        "container": {
+            "cornerRadius": "",
+            "backgroundColor": "@Color(B1)",
+            "borderWidth": "0",
+            "borderColor": ""
+        },
+        "themeIds": {
+            "A": {
+                "selectColor": "@Color(M1.N1)",
+                "selectFont": "T7-S",
+                "font": "T7-R",
+                "color": "@Color(B1.N3)",
+                "slipperWidth": "0",
+                "slipperHeight": "0",
+                "slipperColor": "",
+                "selectBackgroundColor":"@Color(M1)",
+                "selectCornerRadius":"@Corner(0.5T7.h+P1)",
+                "itemPadding":"P2",
+                "itemHPadding": "0.5P6",
+                "itemVPadding": "P1"
+            },
+            "B": {
+                "color":"@Color(B1.N3)",
+                "font":"IC3"
+            },
+        },
+        "layout": {
+            "height": "T7.h+P6",
+            "content": {
+                "A": {
+                    "centerY": {
+                        "to": "super",
+                        "side": "centerY"
+                    },
+                    "left": {
+                        "to": "super",
+                        "side": "left",
+                        "offset": "P4-0.5P2"
+                    },
+                    "right": {
+                        "to": "super",
+                        "side": "right",
+                        "offset": "-P4"
+                    },
+                    "height": "T7.h+P1+P1"
+                },
+                "B": {
+                    "right": {
+                        "to": "super",
+                        "side": "right",
+                        "offset": "-P5"
+                    },
+                    "centerY": {
+                        "to": "super",
+                        "side": "centerY",
+                        "offset": "P0"
+                    }
+                }
+            }
+        }
+    }
+
+}

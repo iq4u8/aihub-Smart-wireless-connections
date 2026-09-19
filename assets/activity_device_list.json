@@ -1,0 +1,18 @@
+{
+  "content": [
+    {
+      "name": "ThingMainPageAreaProvider",
+      "componentKey": "homeDeviceCard"
+    }
+  ],
+  "container": {
+    "name": "homepage",
+    "config": {
+      "pages": "ThingMainPageAreaProvider",
+      "onlyResume": true
+    }
+  },
+  "pullAnimation": {
+    "name": "DPCPullAnimation"
+  }
+}

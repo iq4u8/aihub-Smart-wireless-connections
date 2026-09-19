@@ -1,0 +1,1 @@
+{"navigateTo":{"object":{"url":"url","type":"type"},"success":{}},"navigateBack":{"object":{"delta":"delta"},"success":{}},"redirectTo":{"object":{"url":"url","type":"type"},"success":{}},"reLaunch":{"object":{"url":"url","type":"type"},"success":{}},"switchTab":{"object":{"url":"url","type":"type"},"success":{}}}

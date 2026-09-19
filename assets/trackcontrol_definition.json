@@ -1,0 +1,15 @@
+{
+  "definition":[
+    {
+      "metaKey":"track_limited_use",
+      "type":"Boolean",
+      "nameZh":"是否限制埋点上报",
+      "nameEn":"track be limited",
+      "os":"1",
+      "dynamic":true,
+      "module":0,
+      "sysModule":"trackControl",
+      "defaultValue":"false"
+    }
+  ]
+}

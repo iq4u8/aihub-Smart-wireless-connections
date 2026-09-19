@@ -1,0 +1,16 @@
+{
+  "definition":[
+    {
+      "metaKey":"is_activator_ble_template_support",
+      "type":"Boolean",
+      "nameZh":"是否开启蓝牙自发现配网模板功能",
+      "nameEn":"enable activator auto search BLE template",
+      "os":"1",
+      "dynamic":false,
+      "module":0,
+      "sysModule":"配网",
+      "defaultValue":"false",
+      "extra":{}
+    }
+  ]
+}

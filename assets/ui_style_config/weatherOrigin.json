@@ -1,0 +1,653 @@
+{
+    "weatherOrigin-1": {
+        "bind": {
+            "weatherOriginEmpty": "weatherOriginEmpty-1"
+        }
+    },
+    "weatherOrigin-2": {
+        "bind": {
+            "weatherOriginEmpty": "weatherOriginEmpty-1"
+        },
+        "container": {
+            "cornerRadius": "@Corner(C3_2)",
+            "backgroundColor": "@Color(B3)",
+            "borderWidth": "",
+            "borderColor": ""
+        },
+        "feature": {
+            "skinSwitch": 1,
+            "backgroundStyle": 2
+        },
+        "themeIds": {
+            "A": {
+                "color": "@Color(B3.N1)",
+                "font" : "T13-S"
+            },
+            "B": {
+                "color": "@Color(B3.N3)",
+                "font": "T4-S"
+            },
+            "C": {
+                "color": "@Color(B3.N3)",
+                "font": "T1-R"
+            },
+            "D": {
+                "color": "@Color(B3.N3)",
+                "font": "T4-S"
+            },
+            "E": {
+                "color": "@Color(B3.N3)",
+                "font": "T1-R"
+            },
+            "F": {
+                "color": "@Color(B3.N3)",
+                "font": "T4-S"
+            },
+            "G": {
+                "color": "@Color(B3.N3)",
+                "font": "T1-R"
+            },
+            "H": {
+                "resize": 2,
+                "tintColor":"@Color(B3.N3)"
+            }
+        },
+        "layout": {
+            "height": "148",
+            "padHeight": "184",
+            "content": {
+                "A": {
+                    "left": {
+                        "to" : "super",
+                        "side": "left",
+                        "offset": "P6"
+                    },
+                    "top": {
+                        "to": "super",
+                        "side": "top",
+                        "offset": "P6"
+                    }
+                },
+                "B": {
+                    "left": {
+                        "to": "super",
+                        "side": "left",
+                        "offset": "P6"
+                    },
+                    "bottom": {
+                        "to": "C",
+                        "side": "top",
+                        "offset": "-P0"
+                    },
+                    "width": "90",
+                    "padWidth": "160",
+                    "height": "T4.h"
+                },
+                "C": {
+                    "left": {
+                        "to": "super",
+                        "side": "left",
+                        "offset": "P6"
+                    },
+                    "bottom": {
+                        "to": "super",
+                        "side": "bottom",
+                        "offset": "-P6"
+                    },
+                    "width": "90",
+                    "padWidth": "160",
+                    "height": "T1.h"
+                },
+                "D": {
+                    "left": {
+                        "to": "B",
+                        "side": "right",
+                        "offset": "P3"
+                    },
+                    "bottom": {
+                        "to": "E",
+                        "side": "top",
+                        "offset": "-P0"
+                    },
+                    "width": "90",
+                    "padWidth": "160",
+                    "height": "T4.h"
+                },
+                "E": {
+                    "left": {
+                        "to": "C",
+                        "side": "right",
+                        "offset": "P3"
+                    },
+                    "bottom": {
+                        "to": "super",
+                        "side": "bottom",
+                        "offset": "-P6"
+                    },
+                    "width": "90",
+                    "padWidth": "140",
+                    "height": "T1.h"
+                },
+                "F": {
+                    "left": {
+                        "to": "D",
+                        "side": "right",
+                        "offset": "P3"
+                    },
+                    "right": {
+                        "to": "super",
+                        "side": "right",
+                        "offset": "@Max(0)"
+                    },
+                    "bottom": {
+                        "to": "G",
+                        "side": "top",
+                        "offset": "-P0"
+                    },
+                    "width": "@Max(90)",
+                    "padWidth": "@Max(160)",
+                    "height": "T4.h"
+                },
+                "G": {
+                    "left": {
+                        "to": "E",
+                        "side": "right",
+                        "offset": "P3"
+                    },
+                    "right": {
+                        "to":"super",
+                        "side":"right",
+                        "offset": "@Max(0)"
+                    },
+                    "bottom": {
+                        "to": "super",
+                        "side": "bottom",
+                        "offset": "-P6"
+                    },
+                    "width": "@Max(90)",
+                    "padWidth": "@Max(160)",
+                    "height": "T1.h"
+                },
+                "H": {
+                    "left": {
+                        "to": "A3",
+                        "side": "right",
+                        "offset": "P3"
+                    },
+                    "top": {
+                        "to": "super",
+                        "side": "top",
+                        "offset": "P5"
+                    },
+                    "right": {
+                        "to": "super",
+                        "side": "right",
+                        "offset": "-P5"
+                    },
+                    "width": "I6",
+                    "height": "I6"
+                }
+            }
+        }
+    },
+    "weatherOrigin-3": {
+        "bind": {
+            "weatherOriginEmpty": "weatherOriginEmpty-1"
+        },
+        "container": {
+            "cornerRadius": "@Corner(C3_2)",
+            "backgroundColor": "",
+            "borderWidth": "",
+            "borderColor": ""
+        },
+        "feature": {
+            "backgroundStyle": 1,
+            "backgroundColor": {
+                "Sunny": "#28B5FF",
+                "Clear": "#28B5FF",
+                "Cloud": "#99AAB3",
+                "Rainy": "#6B7377",
+                "Snow": "#4DC8CC"
+            }
+        },
+        "themeIds": {
+            "A": {
+                "color": "#FFFFFFFF",
+                "font": "T13-S",
+                "textOverflow": 0,
+                "numberOfLines": 1
+            },
+            "B": {
+                "color": "#7FFFFFFF",
+                "font": "T1-S",
+                "textOverflow": 0,
+                "numberOfLines": 1
+            },
+            "C": {
+                "color": "#7FFFFFFF",
+                "font": "T1-R",
+                "textOverflow": 0,
+                "numberOfLines": 1
+            },
+            "D": {
+                "color": "#7FFFFFFF",
+                "font": "T1-S",
+                "textOverflow": 0,
+                "numberOfLines": 1
+            },
+            "E": {
+                "color": "#7FFFFFFF",
+                "font": "T1-R",
+                "textOverflow": 0,
+                "numberOfLines": 1
+            },
+            "F": {
+                "color": "#7FFFFFFF",
+                "font": "T1-S",
+                "textOverflow": 0,
+                "numberOfLines": 1
+            },
+            "G": {
+                "color": "#7FFFFFFF",
+                "font": "T1-R",
+                "textOverflow": 0,
+                "numberOfLines": 1
+            },
+            "H": {
+                "resize": 2
+            }
+        },
+        "layout": {
+            "height": "148",
+            "padHeight": "184",
+            "content": {
+                "A": {
+                    "left": {
+                        "to": "super",
+                        "side": "left",
+                        "offset": "P6"
+                    },
+                    "top": {
+                        "to": "super",
+                        "side": "top",
+                        "offset": "P6"
+                    },
+                    "height": "T13.h",
+                    "width": "90",
+                    "padWidth":"140"
+                },
+                "B": {
+                    "left": {
+                        "to": "super",
+                        "side": "left",
+                        "offset": "P6"
+                    },
+                    "bottom": {
+                        "to": "C",
+                        "side": "top",
+                        "offset": "-P0"
+                    },
+                    "height": "T1.h",
+                    "width": "90",
+                    "padWidth":"140"
+                },
+                "C": {
+                    "left": {
+                        "to": "B",
+                        "side": "left",
+                        "offset": "P0"
+                    },
+                    "bottom": {
+                        "to": "super",
+                        "side": "bottom",
+                        "offset": "-P6"
+                    },
+                    "height": "T1.h",
+                    "width": "90",
+                    "padWidth":"140"
+                },
+                "D": {
+                    "left": {
+                        "to": "B",
+                        "side": "right",
+                        "offset": "P3"
+                    },
+                    "bottom": {
+                        "to": "E",
+                        "side": "top",
+                        "offset": "-P0"
+                    },
+                    "height": "T1.h",
+                    "width": "90",
+                    "padWidth":"140"
+                },
+                "E": {
+                    "left": {
+                        "to": "C",
+                        "side": "right",
+                        "offset": "P3"
+                    },
+                    "bottom": {
+                        "to": "super",
+                        "side": "bottom",
+                        "offset": "-P6"
+                    },
+                    "height": "T1.h",
+                    "width": "90",
+                    "padWidth":"140"
+                },
+                "F": {
+                    "left": {
+                        "to": "D",
+                        "side": "right",
+                        "offset": "P3"
+                    },
+                    "right": {
+                        "to":"super",
+                        "side":"right",
+                        "offset": "@Max(0)"
+                    },
+                    "bottom": {
+                        "to": "G",
+                        "side": "top",
+                        "offset": "-P0"
+                    },
+                    "height": "T1.h",
+                    "width": "@Max(90)",
+                    "padWidth": "@Max(140)"
+                },
+                "G": {
+                    "left": {
+                        "to": "E",
+                        "side": "right",
+                        "offset": "P3"
+                    },
+                    "bottom": {
+                        "to": "super",
+                        "side": "bottom",
+                        "offset": "-P6"
+                    },
+                    "right": {
+                        "to":"super",
+                        "side":"right",
+                        "offset": "@Max(0)"
+                    },
+                    "height": "T1.h",
+                    "width": "@Max(90)",
+                    "padWidth": "@Max(140)"
+                },
+                "H": {
+                    "right": {
+                        "to": "super",
+                        "side": "right",
+                        "offset":"-P5"
+                    },
+                    "top": {
+                        "to": "super",
+                        "side": "top",
+                        "offset": "P5"
+                    },
+                    "width":"I7",
+                    "height":"I7"
+                }
+            }
+        }
+    },
+    "weatherOrigin-4": {
+        "bind": {
+            "weatherOriginEmpty": "weatherOriginEmpty-2"
+        },
+        "container": {
+            "cornerRadius": "",
+            "backgroundColor": "",
+            "borderWidth": "",
+            "borderColor": ""
+        },
+        "feature": {
+            "backgroundStyle": 3,
+            "skipAirInfo": true
+        },
+        "themeIds": {
+            "H": {
+                "resize": 2
+            },
+            "A": {
+                "color": "@Color(B1.N3)",
+                "font": "T4-R",
+                "numberOfLines": 1
+            },
+            "LINE1": {
+                "color": "@Color(B1.N7)",
+                "font": "T3-R",
+                "numberOfLines": 1,
+                "textAlign": "1"
+            },
+            "C": {
+                "color": "@Color(B1.N3)",
+                "font": "T4-R",
+                "textOverflow": 0,
+                "numberOfLines": 1
+            },
+            "B": {
+                "color": "@Color(B1.N3)",
+                "font": "T4-R",
+                "textOverflow": 0,
+                "numberOfLines": 1
+            },
+            "LINE2": {
+                "color": "@Color(B1.N7)",
+                "font": "T3-R",
+                "numberOfLines": 1,
+                "textAlign": "1"
+            },
+            "E": {
+                "color": "@Color(B1.N3)",
+                "font": "T4-R",
+                "textOverflow": 0,
+                "numberOfLines": 1
+            },
+            "D": {
+                "color": "@Color(B1.N3)",
+                "font": "T4-R",
+                "textOverflow": 0,
+                "numberOfLines": 1
+            },
+            "LINE3": {
+                "color": "@Color(B1.N7)",
+                "font": "T3-R",
+                "numberOfLines": 1,
+                "textAlign": "1"
+            },
+            "G": {
+                "color": "@Color(B1.N3)",
+                "font": "T4-R",
+                "textOverflow": 0,
+                "numberOfLines": 1
+            },
+            "F": {
+                "color": "@Color(B1.N3)",
+                "font": "T4-R",
+                "textOverflow": 0,
+                "numberOfLines": 1
+            }
+        },
+        "layout": {
+            "height": "40",
+            "padHeight": "56",
+            "content": {
+                "H": {
+                    "left": {
+                        "to": "super",
+                        "side": "left",
+                        "offset": "P0"
+                    },
+                    "centerY": {
+                        "to": "super",
+                        "side": "centerY",
+                        "offset": "P0"
+                    },
+                    "width": "40",
+                    "height": "40",
+                    "padWidth":"56",
+                    "padHeight":"56"
+                },
+                "A": {
+                    "left": {
+                        "to": "H",
+                        "side": "right",
+                        "offset": "P2"
+                    },
+                    "centerY": {
+                        "to": "super",
+                        "side": "centerY",
+                        "offset": "P0"
+                    },
+                    "width":"@Min(10)"
+                },
+                "LINE1": {
+                    "left": {
+                        "to": "A",
+                        "side": "right",
+                        "offset": "P2"
+                    },
+                    "centerY": {
+                        "to": "super",
+                        "side": "centerY",
+                        "offset": "P0"
+                    },
+                    "height": "T3.h",
+                    "width":"@Min(1)"
+                },
+                "C": {
+                    "left": {
+                        "to": "LINE1",
+                        "side": "right",
+                        "offset": "P2"
+                    },
+                    "centerY": {
+                        "to": "super",
+                        "side": "centerY",
+                        "offset": "P0"
+                    },
+                    "right": {
+                        "to": "super",
+                        "side": "right",
+                        "offset": "@Max(P0)"
+                    },
+                    "width":"@Min(10)"
+                },
+                "B": {
+                    "left": {
+                        "to": "C",
+                        "side": "right",
+                        "offset": "P2"
+                    },
+                    "right": {
+                        "to": "super",
+                        "side": "right",
+                        "offset": "@Max(P0)"
+                    },
+                    "centerY": {
+                        "to": "super",
+                        "side": "centerY",
+                        "offset": "P0"
+                    }
+                },
+                "LINE2": {
+                    "left": {
+                        "to": "B",
+                        "side": "right",
+                        "offset": "P2"
+                    },
+                    "centerY": {
+                        "to": "super",
+                        "side": "centerY",
+                        "offset": "P0"
+                    },
+                    "height": "T3.h"
+                },
+                "E": {
+                    "left": {
+                        "to": "LINE2",
+                        "side": "right",
+                        "offset": "P2"
+                    },
+                    "right": {
+                        "to": "super",
+                        "side": "right",
+                        "offset": "@Max(P0)"
+                    },
+                    "centerY": {
+                        "to": "super",
+                        "side": "centerY",
+                        "offset": "P0"
+                    }
+                },
+                "D": {
+                    "left": {
+                        "to": "E",
+                        "side": "right",
+                        "offset": "P2"
+                    },
+                    "right": {
+                        "to": "super",
+                        "side": "right",
+                        "offset": "@Max(P0)"
+                    },
+                    "centerY": {
+                        "to": "super",
+                        "side": "centerY",
+                        "offset": "P0"
+                    }
+                },
+                "LINE3": {
+                    "left": {
+                        "to": "D",
+                        "side": "right",
+                        "offset": "P2"
+                    },
+                    "centerY": {
+                        "to": "super",
+                        "side": "centerY",
+                        "offset": "P0"
+                    },
+                    "height": "T3.h"
+                },
+                "G": {
+                    "left": {
+                        "to": "LINE3",
+                        "side": "right",
+                        "offset": "P2"
+                    },
+                    "right": {
+                        "to": "super",
+                        "side": "right",
+                        "offset": "@Max(P0)"
+                    },
+                    "centerY": {
+                        "to": "super",
+                        "side": "centerY",
+                        "offset": "P0"
+                    }
+                },
+                "F": {
+                    "left": {
+                        "to": "G",
+                        "side": "right",
+                        "offset": "P2"
+                    },
+                    "right": {
+                        "to": "super",
+                        "side": "right",
+                        "offset": "@Max(P0)"
+                    },
+                    "centerY": {
+                        "to": "super",
+                        "side": "centerY",
+                        "offset": "P0"
+                    }
+                }
+            }
+        }
+    }
+}

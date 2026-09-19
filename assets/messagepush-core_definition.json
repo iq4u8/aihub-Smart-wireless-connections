@@ -1,0 +1,28 @@
+{
+  "definition": [
+    {
+      "os": "1",
+      "type": "Boolean",
+      "metaKey": "is_support_read_contacts",
+      "defaultValue": "false",
+      "nameZh": "是否支持读取通讯录",
+      "nameEn": "support reading contacts",
+      "sysModule": "health",
+      "dynamic": false,
+      "module": 2,
+      "extra": "{}"
+    },
+    {
+      "os": "1",
+      "type": "Boolean",
+      "metaKey": "is_support_activity_recognition",
+      "defaultValue": "false",
+      "nameZh": "是否开启身体活动识别权限（例如记步）",
+      "nameEn": "Whether to enable physical activity recognition permission (such as step recording)",
+      "sysModule": "health",
+      "dynamic": false,
+      "module": 2,
+      "extra": "{}"
+    }
+  ]
+}

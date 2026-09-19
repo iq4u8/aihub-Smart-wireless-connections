@@ -1,0 +1,1 @@
+{"feature":{"moduleContainer":"DeviceKit","export":false,"provider":{"service":[],"routes":[]},"runtimeEnv":{"requireService":["com.thingclips.group_ui_api.GroupManagerService"],"requireRoutes":[],"optionsService":[]},"tags":["tttdevicekit"]},"mVersion":"1.0.0","cType":"module","cName":"tunigroupcontrolmanager","cVersion":"2.0.3"}

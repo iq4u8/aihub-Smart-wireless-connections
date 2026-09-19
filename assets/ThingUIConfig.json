@@ -1,0 +1,10 @@
+{
+    "badge-recommend-products":{
+        "font":"13",
+        "textColor":"#FFFFFF",
+        "textBgColor":"#FF4444",
+        "cornerRadius":"4",
+        "borderWidth":"1",
+        "borderColor":"#FFFFFF"
+    }
+}

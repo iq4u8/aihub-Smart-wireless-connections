@@ -1,0 +1,95 @@
+{
+    "weatherOriginEmpty-1": {
+    },
+    "weatherOriginEmpty-2": {
+        "container": {
+            "cornerRadius": "@Corner(C3_2)",
+            "backgroundColor": "@Color(B3)",
+            "borderWidth": "",
+            "borderColor": ""
+        },
+        "feature": { },
+        "themeIds": {
+            "A": {
+                "color": "@Color(B3.N1)",
+                "font": "T9-S"
+            },
+            "B": {
+                "color": "@Color(B3.N3)",
+                "font": "T1-R"
+            },
+            "C": {
+                "resize": 3
+            },
+            "D": {
+                "resize": 2,
+                "tintColor": "@Color(B3.N7)"
+            }
+        },
+        "layout": {
+            "height": "72",
+            "padHeight": "100",
+            "content": {
+                "A": {
+                    "centerY": {
+                        "to": "super",
+                        "side": "centerY",
+                        "offset": "-0.5T1.h"
+                    },
+                    "left": {
+                        "to": "super",
+                        "side": "left",
+                        "offset": "P4"
+                    },
+                    "height": "T9.h",
+                    "level": 1
+                },
+                "B": {
+                    "top": {
+                        "to": "A",
+                        "side": "bottom"
+                    },
+                    "left": {
+                        "to": "super",
+                        "side": "left",
+                        "offset": "P4"
+                    },
+                    "height": "T1.h",
+                    "level": 1
+                },
+                "C": {
+                    "top": {
+                        "to": "super",
+                        "side": "top"
+                    },
+                    "bottom": {
+                        "to": "super",
+                        "side": "bottom"
+                    },
+                    "left": {
+                        "to": "super",
+                        "side": "left"
+                    },
+                    "right": {
+                        "to": "super",
+                        "side": "right"
+                    }
+                },
+                "D": {
+                    "top": {
+                        "to": "super",
+                        "side": "top",
+                        "offset": "P2"
+                    },
+                    "right": {
+                        "to": "super",
+                        "side": "right",
+                        "offset": "-P2"
+                    },
+                    "width": "I3",
+                    "height": "I3"
+                }
+            }
+        }
+    }
+}

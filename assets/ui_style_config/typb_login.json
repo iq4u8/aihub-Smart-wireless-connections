@@ -1,0 +1,17 @@
+{
+    "typb_login-1": {
+        "feature": {
+            "name":"login1"
+        }
+    },
+    "typb_login-2": {
+        "feature": {
+            "name":"login2"
+        }
+    },
+    "typb_login-3": {
+        "feature": {
+            "name":"login3"
+        }
+    }
+}

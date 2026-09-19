@@ -1,0 +1,21 @@
+{
+  "home": "com.thingclips.smart.homepage.HomeTabGetterNew",
+  "scene": "com.thingclips.smart.scene.business.NewSceneTabGetter",
+  "mall": "com.thingclips.smart.thingmall.MallTabGetter",
+  "userCenter": "com.thingclips.smart.personal.PersonalTabGetter",
+  "debug": "com.thingclips.smart.modular.entrance.ModuleEntranceTabGetter",
+  "rna": "com.thingclips.smart.rntab.tab.ThingPanelRNTab",
+  "rnb": "com.thingclips.smart.rntab.tab.ThingPanelRNBTab",
+  "rnc": "com.thingclips.smart.rntab.tab.ThingPanelRNCTab",
+  "miniappa": "com.thingclips.smart.tab.miniapptab.ThingMiniAppTabA",
+  "miniappb": "com.thingclips.smart.tab.miniapptab.ThingMiniAppTabB",
+  "miniappc": "com.thingclips.smart.tab.miniapptab.ThingMiniAppTabC",
+  "outdoor": "com.thingclips.smart.outdoor.view.api.OutdoorTabGetter",
+  "light": "com.thingclips.smart.scene.ui.lighting.SceneLightUiTabGetter",
+  "smart": "com.thingclips.smart.intelligence_bridge.SmartTabGetter",
+  "oslock": "com.thingclips.onelock.device.api.DeviceTabGetter",
+  "protectUserCenter": "com.thingclips.smart.security.usercenter.mine.MineTabGetter",
+  "protect": "com.thingclips.security.armed.ArmedHomeTabGetter",
+  "lightScene": "com.thingclips.smart.light.scene.home.LightSceneHomeTabGetter",
+  "discover": "com.thingclips.smart.light.discover.DiscoverTabGetter"
+}

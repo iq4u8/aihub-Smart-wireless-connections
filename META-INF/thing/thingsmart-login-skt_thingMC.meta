@@ -1,0 +1,1 @@
+{"feature":{"moduleContainer":"basic.commonbiz.optional.login.service","export":true,"provider":{"service":["com.thingclips.smart.login.skt.api.service.ISktLoginApiService"],"routes":[]},"runtimeEnv":{"requireService":[],"requireRoutes":[],"optionsService":[]},"tags":[]},"mVersion":"1.0.0","cType":"module","cName":"thingsmart-login-skt","cVersion":"5.5.0"}

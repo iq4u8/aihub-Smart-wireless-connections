@@ -1,0 +1,1 @@
+{"feature":{"moduleContainer":"BizKit","export":false,"provider":{"service":[],"routes":[]},"runtimeEnv":{"requireService":["com.thingclips.smart.commonbiz.api.iconfont.AbsIconFontService"],"requireRoutes":[],"optionsService":[]},"tags":["tttbizkit"]},"mVersion":"1.0.0","cType":"module","cName":"tunifontmanager","cVersion":"1.0.2-anonymize.1"}

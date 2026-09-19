@@ -1,0 +1,1 @@
+{"stopAccelerometer":{"success":{}},"startAccelerometer":{"object":{"interval":{"game":"game","ui":"ui","normal":"normal"}},"success":{}},"onAccelerometerChange":{"callback":{"x":"x","y":"y","z":"z"}},"offAccelerometerChange":{"callback":{"x":"x","y":"y","z":"z"}}}

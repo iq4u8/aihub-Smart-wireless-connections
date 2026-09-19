@@ -1,0 +1,1 @@
+{"generateSignedUrl":{"object":{"path":"path","expiration":"expiration","region":"region","token":"token","sk":"sk","provider":"provider","endpoint":"endpoint","ak":"ak","bucket":"bucket"},"success":{"signedUrl":"signedUrl"}}}

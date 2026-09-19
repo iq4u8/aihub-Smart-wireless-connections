@@ -1,0 +1,1 @@
+{"feature":{"moduleContainer":"DeviceKit","export":false,"provider":{"service":[],"routes":[]},"runtimeEnv":{"requireService":["com.thingclips.smart.panel.ota.service.AbsOTACheckService"],"requireRoutes":[],"optionsService":[]},"tags":["tttdevicekit"]},"mVersion":"1.0.0","cType":"module","cName":"tuniotamanager","cVersion":"2.0.0"}

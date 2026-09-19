@@ -1,0 +1,205 @@
+{
+    "homeSceneRecommendTab-1": {
+    },
+    "homeSceneRecommendTab-2": {
+        "feature": {
+            "iconfontStyle":"style_2_iconfont",
+        },
+        "container": {
+            "cornerRadius": "@Corner(C3_3)",
+            "backgroundColor": "@Color(B3)",
+            "borderWidth": "",
+            "borderColor": ""
+        },
+        "themeIds": {
+            "A": {
+                "resize":2
+            },
+            "B": {
+                "font":"T2-R",
+                "color":"@Color(B3.N3)",
+            },
+            "C": {
+                "font":"T4-S",
+                "color":"@Color(B3.N1)",
+                "textOverflow": 0,
+                "numberOfLines": 1
+            },
+            "D": {
+                "font":"IC2",
+                "color":"@Color(B3.N6)",
+            }
+        },
+        "layout": {
+            "height": "T2.h+T4.h+P4+P4",
+            "content": {
+                "A": {
+                    "left": {
+                        "to": "super",
+                        "side": "left",
+                        "offset": "P4"
+                    },
+                    "centerY":{
+                        "to": "super",
+                        "side": "centerY",
+                        "offset": "P0"
+                    },
+                    "height": "I4",
+                    "width": "I4"
+                },
+                "D": {
+                    "right": {
+                        "to":"super",
+                        "side":"right",
+                        "offset":"-P2"
+                    },
+                    "top": {
+                        "to": "super",
+                        "side": "top",
+                        "offset":"P2"
+                    },
+                    "width":"IC2",
+                    "height":"IC2"
+                },
+                "B": {
+                    "left": {
+                        "to": "A",
+                        "side":"right",
+                        "offset": "P3"
+                    },
+                    "top": {
+                        "to": "super",
+                        "side": "top",
+                        "offset": "P4"
+                    },
+                    "right": {
+                        "to": "D",
+                        "side":"left",
+                        "offset": "-P2"
+                    },
+                    "height":"T4.h",
+                    "weightH":5
+                },
+                "C": {
+                    "left": {
+                        "to": "B",
+                        "side":"left",
+                        "offset": "P0"
+                    },
+                    "top": {
+                        "to": "B",
+                        "side": "bottom",
+                        "offset": "P0"
+                    },
+                    "right": {
+                        "to": "D",
+                        "side":"left",
+                        "offset": "-P2"
+                    },
+                    "height":"T4.h",
+                    "width": "@Max(192)",
+                    "padWidth": "@Max(216)"
+                }
+            }
+        }
+    },
+    "homeSceneRecommendTab-3": {
+        "feature": {
+            "iconfontStyle":"default_iconfont"
+        },
+        "container": {
+            "cornerRadius": "@Corner(C3_1)",
+            "backgroundColor": "@Color(B3)",
+            "borderWidth": "",
+            "borderColor": ""
+        },
+        "themeIds": {
+            "A": {
+                "resize":2
+            },
+            "B": {
+                "font":"T4-S",
+                "color":"@Color(B3.N1)",
+            },
+            "C": {
+                "font":"T4-S",
+                "color":"@Color(B3.N1)",
+                "textOverflow": 0,
+                "numberOfLines": 1
+            },
+            "D": {
+                "font":"IC2",
+                "color":"@Color(B3.N6)",
+            }
+        },
+        "layout": {
+            "height": "T4.h+24",
+            "content": {
+                "A": {
+                    "left": {
+                        "to": "super",
+                        "side": "left",
+                        "offset": "P4"
+                    },
+                    "centerY":{
+                        "to": "super",
+                        "side": "centerY",
+                        "offset": "P0"
+                    },
+                    "height": "I1",
+                    "width": "I1"
+                },
+                "B": {
+                    "left": {
+                        "to": "A",
+                        "side":"right",
+                        "offset": "P1"
+                    },
+                    "centerY": {
+                        "to": "super",
+                        "side": "centerY",
+                        "offset": "P0"
+                    },
+                    "height":"T4.h",
+                    "weightH":5
+                },
+                "C": {
+                    "left": {
+                        "to": "B",
+                        "side":"right",
+                        "offset": "P1"
+                    },
+                    "centerY": {
+                        "to": "super",
+                        "side": "centerY",
+                        "offset": "P0"
+                    },
+                    "height":"T4.h",
+                    "width": "@Max(80)",
+                    "padWidth": "@Max(106)"
+                },
+                "D": {
+                    "left": {
+                        "to": "C",
+                        "side":"right",
+                        "offset": "P1"
+                    },
+                    "right": {
+                        "to":"super",
+                        "side":"right",
+                        "offset":"-P4"
+                    },
+                    "centerY": {
+                        "to": "super",
+                        "side": "centerY",
+                        "offset":"P0"
+                    },
+                    "width":"I1",
+                    "height":"I1"
+                }
+            }
+        }
+    }
+}
+
+

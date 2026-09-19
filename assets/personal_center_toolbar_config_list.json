@@ -1,0 +1,13 @@
+[
+  {
+    "name": "personal_center_toolbar_group",
+    "items": [
+      {
+        "cellType": "personal_center_toolbar_scan"
+      },
+      {
+        "cellType": "personal_center_toolbar_setting"
+      }
+    ]
+  }
+]

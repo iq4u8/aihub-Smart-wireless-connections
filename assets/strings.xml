@@ -1,0 +1,4 @@
+<resources>
+    <string name="thing_network_error">Network Error, Please Retry</string>
+    <string name="local_space_no_enough">Local Space Not Enough or Read/Write Permission Not Enabled</string>
+</resources>

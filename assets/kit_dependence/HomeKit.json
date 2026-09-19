@@ -1,0 +1,21 @@
+{
+    "kitName": "HomeKit",
+    "kitVersion": "3.3.0",
+    "plugins": {
+        "com.thingclips.smart.plugin:tuniapdirectlydevicemanager": {
+            "version": "1.1.0-anonymize.1"
+        },
+        "com.thingclips.smart.plugin:tunihomedatamanager": {
+            "version": "1.3.0"
+        },
+        "com.thingclips.smart.plugin:tunihomedevicelistmanager": {
+            "version": "1.0.4"
+        },
+        "com.thingclips.smart.plugin:tuniloginmanager": {
+            "version": "1.0.3"
+        },
+        "com.thingclips.smart.plugin:tuniscenemanager": {
+            "version": "1.7.0"
+        }
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "kitName": "IPCKit",
+    "kitVersion": "2.0.8",
+    "plugins": {
+        "com.thingclips.smart.plugin:tunicloudstoragesignaturemanager": {
+            "version": "1.0.0-anonymize.1"
+        },
+        "com.thingclips.smart.plugin:tunidlipcmanager": {
+            "version": "3.0.0-rc.9"
+        },
+        "com.thingclips.smart.plugin:tuniipccameramanager": {
+            "version": "5.5.0"
+        },
+        "com.thingclips.smart.plugin:tuniipccamerasettingsmanager": {
+            "version": "1.1.1-anonymize.1"
+        },
+        "com.thingclips.smart.plugin:tuniipcdoorbellmanager": {
+            "version": "1.0.1-anonymize.1"
+        }
+    }
+}

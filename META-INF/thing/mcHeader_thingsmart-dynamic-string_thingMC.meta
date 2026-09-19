@@ -1,0 +1,1 @@
+{"feature":{"moduleContainer":"basic.arch.dynamic.service","export":false,"provider":{"service":[],"routes":[]},"runtimeEnv":{"requireService":[],"requireRoutes":[],"optionsService":[]},"tags":[]},"mVersion":"1.0.0","cType":"module","cName":"thingsmart-dynamic-string","cVersion":"5.5.0"}

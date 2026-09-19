@@ -1,0 +1,15 @@
+{
+    "kitName": "MapKit",
+    "kitVersion": "3.3.1",
+    "plugins": {
+        "com.thingclips.smart.plugin:tunidlmapmanager": {
+            "version": "2.0.0-anonymize.1"
+        },
+        "com.thingclips.smart.plugin:tunigeofencemanager": {
+            "version": "1.0.1-anonymize.1"
+        },
+        "com.thingclips.smart.plugin:tunilocationmanager": {
+            "version": "2.2.3"
+        }
+    }
+}

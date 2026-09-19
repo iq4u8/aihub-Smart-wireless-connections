@@ -1,0 +1,1 @@
+{"feature":{"moduleContainer":"basic.commonbiz.optional.login.service","export":false,"provider":{"service":["com.thingclips.smart.login.captcha.api.AbsCaptchaService"],"routes":[]},"runtimeEnv":{"requireService":[],"requireRoutes":[],"optionsService":[]},"tags":[]},"mVersion":"1.0.0","cType":"module","cName":"thingsmart-login-captcha","cVersion":"5.3.1"}

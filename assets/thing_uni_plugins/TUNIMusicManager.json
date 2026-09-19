@@ -1,0 +1,1 @@
+{"getRGBAudioManager":{"object":{"managerId":"managerId"},"success":{}},"startRGBRecord":{"object":{"managerId":"managerId"},"success":{}},"stopRGBRecord":{"object":{"managerId":"managerId"},"success":{}},"onAudioRgbChange":{"callback":{"managerId":"managerId","body":"body"}}}

@@ -1,0 +1,16 @@
+{
+  "definition": [
+    {
+      "os": "1",
+      "type": "Boolean",
+      "metaKey": "devicedetail_cache_enable",
+      "defaultValue": "true",
+      "nameZh": "是否开启设备详情缓存",
+      "nameEn": "devicedetail_cache_enable",
+      "sysModule": "设备详情",
+      "dynamic": true,
+      "module": 0,
+      "extra": "{}"
+    }
+  ]
+}

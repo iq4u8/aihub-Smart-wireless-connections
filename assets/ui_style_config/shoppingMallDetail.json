@@ -1,0 +1,144 @@
+{
+    "shoppingMallDetail-1":{
+    },
+    "shoppingMallDetail-2":{
+        "feature": {
+            "iconfontStyle":"style_2_iconfont"
+        },
+        "container": {
+            "borderWidth": "",
+            "borderColor": ""
+        },
+        "themeIds": {
+            "A": {
+                "resize": 3,
+                "cornerRadius": "@Corner(C1_2)"
+            },
+            "C": {
+                "color": "@Color(B3.N1)",
+                "font": "T1-R",
+                "textOverflow": 0,
+                "numberOfLines": 1,
+                "textAlign": 1
+            },
+            "D": {
+                "color": "@Color(M2)",
+                "font": "T2-M",
+                "textOverflow": 0,
+                "numberOfLines": 2,
+                "textAlign": 1
+            }
+        },
+        "layout": {
+            "height": 112,
+            "content": {
+                "A": {
+                    "top": {
+                        "to": "super",
+                        "side": "top",
+                        "offset": "P3"
+                    },
+                    "centerX": {
+                        "to": "super",
+                        "side": "centerX",
+                        "offset": "P0"
+                    },
+                    "width": "IC1+IC4",
+                    "height": "IC1+IC4"
+                },
+                "C": {
+                    "top": {
+                        "to": "A",
+                        "side": "bottom",
+                        "offset": "P1"
+                    },
+                    "left": {
+                        "to": "super",
+                        "side": "left",
+                        "offset": "P2"
+                    },
+                    "right": {
+                        "to": "super",
+                        "side": "right",
+                        "offset": "-P2"
+                    }
+                },
+                "D": {
+                    "top": {
+                        "to": "A",
+                        "side": "bottom",
+                        "offset": "P5"
+                    },
+                    "left": {
+                        "to": "super",
+                        "side": "left",
+                        "offset": "P2"
+                    },
+                    "right": {
+                        "to": "super",
+                        "side": "right",
+                        "offset": "-P2"
+                    }
+                }
+            }
+        }
+    },
+    "shoppingMallDetail-3":{
+        "feature": {
+            "iconfontStyle":"style_3_iconfont"
+        },
+        "container": {
+            "borderWidth": "",
+            "borderColor": ""
+        },
+        "themeIds": {
+            "A": {
+                "resize": 3,
+                "cornerRadius": "@Corner(C1_2)"
+            },
+            "D": {
+                "color": "@Color(M2)",
+                "font": "T2-M",
+                "textOverflow": 0,
+                "numberOfLines": 2,
+                "textAlign": 1
+            }
+        },
+        "layout": {
+            "height": 92,
+            "content": {
+                "A": {
+                    "top": {
+                        "to": "super",
+                        "side": "top",
+                        "offset": "P3"
+                    },
+                    "centerX":{
+                        "to":"super",
+                        "side":"centerX",
+                        "offset":"0"
+                    },
+                    "width": "IC2+IC3",
+                    "height": "IC2+IC3"
+                },
+                "D": {
+                    "top": {
+                        "to": "A",
+                        "side": "bottom",
+                        "offset": "P1"
+                    },
+                    "left": {
+                        "to": "super",
+                        "side": "left",
+                        "offset": "P2"
+                    },
+                    "right": {
+                        "to": "super",
+                        "side": "right",
+                        "offset": "-P2"
+                    }
+                }
+            }
+        }
+    }
+}

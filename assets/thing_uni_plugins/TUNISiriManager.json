@@ -1,0 +1,1 @@
+{"isSupportedShortcut":{"success":{"isSupported":"isSupported"}},"isAssociatedShortcut":{"object":{"sceneId":"sceneId","name":"name"},"success":{"isAssociated":"isAssociated"}},"handleShortcut":{"object":{"type":"type","sceneId":"sceneId","name":"name","iconUrl":"iconUrl"},"success":{"operationStep":"operationStep","operationStatus":"operationStatus"}}}

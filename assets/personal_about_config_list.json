@@ -1,0 +1,45 @@
+[
+  {
+    "name": "personal_about_group",
+    "header": {
+      "cellType": "personal_about_empty"
+    },
+    "items": [
+      {
+        "cellType": "personal_about_rate_us"
+      },
+      {
+        "cellType": "personal_about_about_us"
+      },
+      {
+        "cellType": "personal_about_source"
+      },
+      {
+        "cellType": "personal_about_upload_log"
+      },
+      {
+      "cellType": "personal_about_mem_dump"
+      },
+      {
+      "cellType": "personal_about_thread_stack_dump"
+      },
+      {
+        "cellType": "personal_about_current_version"
+      },
+      {
+        "cellType": "personal_about_check_version"
+      }
+    ]
+  },
+  {
+    "name": "personal_about_consumer_hotline_group",
+    "header": {
+      "cellType": "personal_about_empty"
+    },
+    "items": [
+      {
+        "cellType": "personal_about_consumer_hotline"
+      }
+    ]
+  }
+]

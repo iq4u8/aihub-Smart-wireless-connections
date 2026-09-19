@@ -1,0 +1,1 @@
+{"feature":{"moduleContainer":"business.activator.ui","export":true,"provider":{"service":["com.thingclips.smart.device.list.api.service.AbsDeviceListService"],"routes":[]},"runtimeEnv":{"requireService":[],"requireRoutes":[],"optionsService":[]},"tags":[]},"mVersion":"1.0.0","cType":"module","cName":"thingsmart-device-list","cVersion":"5.8.0-ka-havells.3"}

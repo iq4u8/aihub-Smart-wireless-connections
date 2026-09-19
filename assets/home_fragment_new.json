@@ -1,0 +1,69 @@
+{
+  "header": {
+    "name": "ThingMainPageNavigatorBar",
+    "componentKey": "homeNav"
+  },
+  "content": [
+    {
+      "name": "ThingMainPageNetworkTip"
+    },
+    {
+      "name": "ThingIotPreviewProvider"
+    },
+    {
+      "name": "ThingMainPageBanner",
+      "componentKey": "weather"
+    },
+    {
+      "name": "ThingMainPageMarketing",
+      "componentKey": "marketing"
+    },
+    {
+      "name": "ThingShoppingMall",
+      "componentKey": "shoppingMall"
+    },
+    {
+      "name": "ThingMPSceneDashboard",
+      "componentKey": "homeSceneTab"
+    },
+    {
+      "name": "ThingMainPageActivator"
+    },
+    {
+      "name": "ThingMainPageMenuProvider",
+      "componentKey": "homeRoomTab",
+      "config": {
+        "cardPadding": {
+          "autoPadding": false
+        }
+      }
+    },
+    {
+      "name": "ThingMainPageAreaProvider",
+      "componentKey": "homeDeviceCard"
+    }
+  ],
+  "container": {
+    "name": "homepage2",
+    "config": {
+      "sticky": "ThingMainPageMenuProvider",
+      "pages": "ThingMainPageAreaProvider"
+    }
+  },
+  "pullAnimation": {
+    "name": "DPCMultiPullAnimation"
+  },
+  "skeleton": {
+    "name": "DPCSkeleton",
+    "config": {
+      "Skeleton": {
+        "scaleType": "FIT_XY",
+        "imageAssetsFolder": "images/",
+        "phone": "skeleton_phone_light.json",
+        "phoneDark": "skeleton_phone_dark.json",
+        "pad": "skeleton_pad_light.json",
+        "padDark": "skeleton_pad_dark.json"
+      }
+    }
+  }
+}

@@ -1,0 +1,47 @@
+Package: com.havells.digitap
+Main Activity: com.smart.ThingSplashActivity
+Activities Count: 718
+Services Count: 34
+Receivers Count: 22
+Providers Count: 8
+Permissions Count: 38
+
+Permissions:
+  - android.permission.ACCESS_COARSE_LOCATION
+  - android.permission.ACCESS_FINE_LOCATION
+  - android.permission.ACCESS_NETWORK_STATE
+  - android.permission.ACCESS_WIFI_STATE
+  - android.permission.BLUETOOTH
+  - android.permission.BLUETOOTH_ADMIN
+  - android.permission.BLUETOOTH_ADVERTISE
+  - android.permission.BLUETOOTH_CONNECT
+  - android.permission.BLUETOOTH_SCAN
+  - android.permission.CAMERA
+  - android.permission.CHANGE_NETWORK_STATE
+  - android.permission.CHANGE_WIFI_MULTICAST_STATE
+  - android.permission.CHANGE_WIFI_STATE
+  - android.permission.FOREGROUND_SERVICE
+  - android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK
+  - android.permission.HIGH_SAMPLING_RATE_SENSORS
+  - android.permission.HIGH_SAMPLING_RATE_SENSORS 
+  - android.permission.INTERNET
+  - android.permission.MODIFY_AUDIO_SETTINGS
+  - android.permission.POST_NOTIFICATIONS
+  - android.permission.READ_EXTERNAL_STORAGE
+  - android.permission.READ_MEDIA_IMAGES
+  - android.permission.READ_MEDIA_VIDEO
+  - android.permission.RECEIVE_BOOT_COMPLETED
+  - android.permission.RECORD_AUDIO
+  - android.permission.REORDER_TASKS
+  - android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS
+  - android.permission.SCHEDULE_EXACT_ALARM
+  - android.permission.SET_WALLPAPER
+  - android.permission.USE_BIOMETRIC
+  - android.permission.USE_FINGERPRINT
+  - android.permission.USE_FULL_SCREEN_INTENT
+  - android.permission.VIBRATE
+  - android.permission.WAKE_LOCK
+  - android.permission.WRITE_EXTERNAL_STORAGE
+  - com.android.launcher.permission.INSTALL_SHORTCUT
+  - com.android.vending.CHECK_LICENSE
+  - com.google.android.c2dm.permission.RECEIVE

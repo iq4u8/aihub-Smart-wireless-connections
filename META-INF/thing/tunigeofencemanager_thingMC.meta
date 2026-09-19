@@ -1,0 +1,1 @@
+{"feature":{"moduleContainer":"MapKit","export":false,"provider":{"service":[],"routes":[]},"runtimeEnv":{"requireService":["com.thingclips.smart.interior.api.IThingGeoFenceOperatePlugin"],"requireRoutes":[],"optionsService":[]},"tags":["tttmapkit"]},"mVersion":"1.0.0","cType":"module","cName":"tunigeofencemanager","cVersion":"1.0.1-anonymize.1"}

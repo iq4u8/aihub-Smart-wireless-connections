@@ -1,0 +1,255 @@
+{
+    "shoppingMall-1":{
+        "bind": {
+            "shoppingMallDetail": "shoppingMallDetail-1"
+        }
+    },
+    "shoppingMall-2":{
+        "feature": {
+            "itemW": 96,
+            "itemH": 112,
+            "lineSpacing": "P0",
+            "interitemSpacing": "P0",
+            "itemLeftSpace": "P0",
+            "itemRightSpace": "P0",
+            "leftSpace": "P4",
+            "rightSpace": "P4",
+            "calculateCard": true,
+            "iconfontStyle": "style_2_iconfont"
+        },
+        "bind": {
+            "shoppingMallDetail": "shoppingMallDetail-2"
+        },
+        "container": {
+            "cornerRadius": "@Corner(C3_2)",
+            "backgroundColor": "@Color(B3)",
+            "borderWidth": "",
+            "borderColor": ""
+        },
+        "themeIds": {
+            "A": {
+                "color": "@Color(B3.N1)",
+                "font": "T6-M",
+                "textOverflow": 0,
+                "numberOfLines": 1,
+                "textAlign": 0
+            },
+            "B": {
+                "color": "@Color(B3.N3)",
+                "font": "T1-R",
+                "textOverflow": 0,
+                "numberOfLines": 1,
+                "textAlign": 0
+            },
+            "C": {
+                "color": "@Color(B3.N1)",
+                "font": "T1-R",
+                "textOverflow": 0,
+                "numberOfLines": 1,
+                "backgroundColor": "#00FFFFFF",
+                "textAlign": 2
+            },
+            "E": {
+                "color": "@Color(B3)"
+            }
+        },
+        "layout": {
+            "height": 155,
+            "content": {
+                "A": {
+                    "top": {
+                        "to": "super",
+                        "side": "top",
+                        "offset": "P4"
+                    },
+                    "left": {
+                        "to": "super",
+                        "side": "left",
+                        "offset": "P4"
+                    },
+                    "right": {
+                        "to": "B",
+                        "side": "left",
+                        "offset": "-P1"
+                    },
+                    "stretchH": 2,
+                    "weightH": 2
+                },
+                "B": {
+                    "bottom": {
+                        "to": "A",
+                        "side": "bottom"
+                    },
+                    "left": {
+                        "to": "A",
+                        "side": "right",
+                        "offset": "P1"
+                    },
+                    "right": {
+                        "to": "C",
+                        "side": "left",
+                        "offset": "-P1"
+                    },
+                    "stretchH": 1,
+                    "weightH": 1
+                },
+                "C": {
+                    "centerY": {
+                        "to": "A",
+                        "side": "centerY"
+                    },
+                    "left": {
+                        "to": "B",
+                        "side": "right",
+                        "offset": "P1"
+                    },
+                    "right": {
+                        "to": "super",
+                        "side": "right",
+                        "offset": "-P4"
+                    },
+                    "width": "@Max(170)",
+                    "stretchH": 3,
+                    "weightH": 3
+                },
+                "E": {
+                    "top": {
+                        "to": "A",
+                        "side": "bottom",
+                        "offset": "P1"
+                    },
+                    "left": {
+                        "to": "super",
+                        "side": "left"
+                    },
+                    "right": {
+                        "to": "super",
+                        "side": "right"
+                    },
+                    "height": 112
+                }
+            }
+        }
+    },
+    "shoppingMall-3":{
+        "feature": {
+            "itemW": 68,
+            "itemH": 92,
+            "lineSpacing": "P0",
+            "interitemSpacing": "P0",
+            "itemLeftSpace": "P0",
+            "itemRightSpace": "P0",
+            "leftSpace": "P4",
+            "rightSpace": "P4",
+            "calculateCard": true,
+            "iconfontStyle": "style_3_iconfont"
+        },
+        "bind": {
+            "shoppingMallDetail": "shoppingMallDetail-3"
+        },
+        "container": {
+            "cornerRadius": "@Corner(C3_2)",
+            "backgroundColor": "@Color(B3)",
+            "borderWidth": "",
+            "borderColor": ""
+        },
+        "themeIds": {
+            "A": {
+                "color": "@Color(B3.N1)",
+                "font": "T4-M",
+                "textOverflow": 0,
+                "numberOfLines": 2
+            },
+            "C": {
+                "font": "9-S",
+                "textOverflow": 0,
+                "numberOfLines": 1,
+                "textAlign": 1,
+                "borderColor": "#4D1989FA",
+                "color": "#FF1989FA",
+                "backgroundColor": "#00FFFFFF",
+                "borderWidth": 1,
+                "leftPadding": 6,
+                "rightPadding": 6,
+                "topPadding": 4,
+                "bottomPadding": 4,
+                "cornerRadius": "@Corner(9)"
+            },
+            "D": {
+                "backgroundColor": "#15000000"
+            },
+            "E": {
+                "color": "@Color(B3)"
+            }
+        },
+        "layout": {
+            "height": 92,
+            "content": {
+                "A": {
+                    "left": {
+                        "to": "super",
+                        "side": "left",
+                        "offset": "P3"
+                    },
+                    "right": {
+                        "to": "E",
+                        "side": "left",
+                        "offset": "-P4"
+                    },
+                    "centerY": {
+                        "to": "super",
+                        "side": "centerY",
+                        "bind": ["C"],
+                        "offset": -8
+                    }
+                },
+                "C": {
+                    "top": {
+                        "to": "A",
+                        "side": "bottom",
+                        "offset": "P1"
+                    },
+                    "left": {
+                        "to": "super",
+                        "side": "left",
+                        "offset": "P3"
+                    },
+                    "right": {
+                        "to": "E",
+                        "side": "left",
+                        "offset": "-P4"
+                    }
+                },
+                "D": {
+                    "centerY": {
+                        "to": "super",
+                        "side": "centerY"
+                    },
+                    "left": {
+                        "to": "super",
+                        "side": "left",
+                        "offset": 92
+                    },
+                    "width": 0.5,
+                    "height": "44"
+                },
+                "E": {
+                    "top": {
+                        "to": "super",
+                        "side": "top"
+                    },
+                    "left": {
+                        "to": "super",
+                        "side": "left",
+                        "offset": 93
+                    },
+                    "right": {
+                        "to": "super",
+                        "side": "right"
+                    },
+                    "height": 92
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "kitName": "AudioKit",
+    "kitVersion": "1.0.0-rc.28",
+    "plugins": {
+        "com.thingclips.smart.plugin:tuniaudiodetectmanager": {
+            "version": "1.0.0-rc.28"
+        }
+    }
+}

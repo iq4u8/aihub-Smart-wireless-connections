@@ -1,0 +1,12 @@
+{
+    "kitName": "WearKit",
+    "kitVersion": "0.0.4",
+    "plugins": {
+        "com.thingclips.smart.plugin:tuniaudiodetectmanager": {
+            "version": "1.0.0-rc.29"
+        },
+        "com.thingclips.smart.plugin:tuniwatchmanager": {
+            "version": "1.1.1"
+        }
+    }
+}

@@ -1,0 +1,1 @@
+{"setup":{"success":{}},"detect":{"object":{"channel":"channel","hz":"hz","db":"db"},"success":{}},"stopDetect":{"success":{}},"publishGains":{"object":{"deviceId":"deviceId","scene":"scene","result":"result"},"success":{}},"onPublishGainsProgress":{"callback":{}}}

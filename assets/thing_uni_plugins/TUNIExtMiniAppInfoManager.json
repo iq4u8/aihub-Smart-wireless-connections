@@ -1,0 +1,1 @@
+{"getPermissionConfig":{"success":{"result":"result"}},"getPermissionConfigSync":{"return":{"result":"result"}},"openSetting":{"success":{"scope":"scope"}},"changeDebugMode":{"object":{"isEnable":"isEnable"},"success":{}},"openHelpCenter":{"success":{}}}

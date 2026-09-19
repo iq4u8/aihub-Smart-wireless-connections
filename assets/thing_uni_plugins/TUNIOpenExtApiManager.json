@@ -1,0 +1,1 @@
+{"extApiCanIUse":{"object":{"api":"api","params":"params"},"success":{"result":"result"}},"extApiCanIUseSync":{"object":{"api":"api","params":"params"},"return":{"result":"result"}},"extApiInvoke":{"object":{"api":"api","params":"params"},"success":{"data":"data"}},"extApiInvokeSync":{"object":{"api":"api","params":"params"},"return":{"data":"data"}}}

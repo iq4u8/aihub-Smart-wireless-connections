@@ -1,0 +1,12 @@
+{
+    "kitName": "CategoryCommonBizKit",
+    "kitVersion": "1.0.5",
+    "plugins": {
+        "com.thingclips.smart.plugin:tuniapplehealthmanager": {
+            "version": "1.0.3-anonymize.1"
+        },
+        "com.thingclips.smart.plugin:tunioutdoordevicemanager": {
+            "version": "1.2.0-rc.3"
+        }
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "kitName": "MiniKit",
+    "kitVersion": "3.8.3",
+    "plugins": {
+        "com.thingclips.smart.plugin:tunidifflayermanager": {
+            "version": "3.0.0-rc.1"
+        },
+        "com.thingclips.smart.plugin:tunidlwebviewmanager": {
+            "version": "3.3.3"
+        },
+        "com.thingclips.smart.plugin:tuniextminiappinfomanager": {
+            "version": "3.0.0-rc.1"
+        },
+        "com.thingclips.smart.plugin:tunigzltabbarmanager": {
+            "version": "3.0.0-rc.3"
+        },
+        "com.thingclips.smart.plugin:tuniminihighwaymanager": {
+            "version": "3.0.6"
+        },
+        "com.thingclips.smart.plugin:tuniminiprogrammanager": {
+            "version": "3.6.0"
+        },
+        "com.thingclips.smart.plugin:tuninativeeventmanager": {
+            "version": "1.1.0"
+        },
+        "com.thingclips.smart.plugin:tuninavigationbarmanager": {
+            "version": "3.0.0-rc.2"
+        },
+        "com.thingclips.smart.plugin:tuninavigatormanager": {
+            "version": "3.0.0-rc.2"
+        },
+        "com.thingclips.smart.plugin:tuniopenextapimanager": {
+            "version": "3.0.0-rc.2"
+        },
+        "com.thingclips.smart.plugin:tuniscrollmanager": {
+            "version": "3.0.0-rc.3"
+        },
+        "com.thingclips.smart.plugin:tuniwidgetmanager": {
+            "version": "1.0.3"
+        }
+    }
+}

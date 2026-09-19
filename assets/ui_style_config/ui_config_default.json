@@ -1,0 +1,28 @@
+{
+    "homeNav": "homeNav-1",
+    "homeSceneTab": "homeSceneTab-1",
+    "weather": "weather-1",
+    "homeRoomTab": "homeRoomTab-1",
+    "homeDeviceCard": "homeDeviceCard-1",
+    "homeDeviceLinearCard": "homeDeviceLinearCard-1",
+
+    "sceneNav": "sceneNav-1",
+    "sceneSceneTab": "sceneSceneTab-1",
+    "sceneAuto": "sceneAuto-1",
+    "sceneOneClick": "sceneOneClick-1",
+    "sceneRecommend": "sceneRecommend-1",
+
+    "profilePicture": "profilePicture-1",
+    "thirdParty": "thirdParty-1",
+    "personalInfo": "personalInfo-1",
+    
+    "typb_login": "typb_login-1",
+    
+    "lightSceneNav": "lightSceneNav-1",
+    "lightSceneTab": "lightSceneTab-1",
+    "lightHomeDeviceCard": "lightHomeDeviceCard-1",
+
+    "shoppingMall": "shoppingMall-1",
+
+    "miniContent": "miniContent-1"
+}

@@ -1,0 +1,87 @@
+[
+  {
+    "name": "personal_account_security_region_group",
+    "header": {
+      "cellType": "personal_account_security_empty"
+    },
+    "items": [
+      {
+        "cellType": "personal_account_security_region"
+      }
+    ]
+  },
+  {
+    "name": "personal_account_security_account_group",
+    "header": {
+      "cellType": "personal_account_security_empty"
+    },
+    "items": [
+      {
+        "cellType": "personal_account_security_mobile"
+      },
+      {
+        "cellType": "personal_account_security_bind_mobile"
+      },
+      {
+        "cellType": "personal_account_security_email"
+      },
+      {
+        "cellType": "personal_account_security_bind_email"
+      },
+      {
+        "cellType": "personal_account_security_third_account"
+      },
+      {
+        "cellType": "personal_account_security_cloud_project"
+      },
+      {
+        "cellType": "personal_account_security_authorize_manage"
+      },
+      {
+        "cellType": "personal_account_security_ha_manage"
+      }
+    ]
+  },
+  {
+    "name": "personal_account_security_password_group",
+    "header": {
+      "cellType": "personal_account_security_empty"
+    },
+    "items": [
+      {
+        "cellType": "personal_account_security_password"
+      },
+      {
+        "cellType": "personal_account_security_finger_login"
+      },
+      {
+        "cellType": "personal_account_security_gesture"
+      },
+      {
+        "cellType": "personal_account_security_login_verify"
+      }
+    ]
+  },
+  {
+    "name": "personal_account_security_user_code_group",
+    "header": {
+      "cellType": "personal_account_security_empty"
+    },
+    "items": [
+      {
+        "cellType": "personal_account_security_user_code"
+      }
+    ]
+  },
+  {
+    "name": "personal_account_security_close_group",
+    "header": {
+      "cellType": "personal_account_security_empty"
+    },
+    "items": [
+      {
+        "cellType": "personal_account_security_close"
+      }
+    ]
+  }
+]

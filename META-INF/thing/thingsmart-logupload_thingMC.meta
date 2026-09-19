@@ -1,0 +1,1 @@
+{"feature":{"moduleContainer":"basic.arch.log.service","export":false,"provider":{"service":["com.thingclips.loguploader.api.LogUploaderService"],"routes":["upload_log_dialog","upload_log_action"]},"runtimeEnv":{"requireService":[],"requireRoutes":[],"optionsService":[]},"tags":[]},"mVersion":"1.0.0","cType":"module","cName":"thingsmart-logupload","cVersion":"5.6.1"}

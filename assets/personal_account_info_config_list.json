@@ -1,0 +1,27 @@
+[
+  {
+    "name": "personal_account_info_group",
+    "header": {
+      "cellType": "personal_account_info_empty"
+    },
+    "items": [
+      {
+        "cellType": "personal_account_info_avatar"
+      },
+      {
+        "cellType": "personal_account_info_nick"
+      }
+    ]
+  },
+  {
+    "name": "personal_account_info_timezone_group",
+    "header": {
+      "cellType": "personal_account_info_empty"
+    },
+    "items": [
+      {
+        "cellType": "personal_account_info_timezone"
+      }
+    ]
+  }
+]

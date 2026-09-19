@@ -1,0 +1,16 @@
+{
+  "definition": [
+    {
+      "os": "1",
+      "type": "Boolean",
+      "metaKey": "use_https_dns",
+      "defaultValue": "true",
+      "nameZh": "标记该 App 是否可以使用 Https DNS",
+      "nameEn": "Mark whether the App can use Https DNS",
+      "sysModule": "基础",
+      "dynamic": false,
+      "module": 0,
+      "extra": "{}"
+    }
+  ]
+}

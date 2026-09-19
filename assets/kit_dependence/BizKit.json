@@ -1,0 +1,69 @@
+{
+    "kitName": "BizKit",
+    "kitVersion": "4.2.4",
+    "plugins": {
+        "com.thingclips.smart.plugin:tuniaiassistantmanager": {
+            "version": "1.1.2"
+        },
+        "com.thingclips.smart.plugin:tuniapirequestmanager": {
+            "version": "1.6.1"
+        },
+        "com.thingclips.smart.plugin:tuniapmmanager": {
+            "version": "5.4.5"
+        },
+        "com.thingclips.smart.plugin:tuniappinfomanager": {
+            "version": "1.3.15"
+        },
+        "com.thingclips.smart.plugin:tuniasrmanager": {
+            "version": "1.0.0-rc.40"
+        },
+        "com.thingclips.smart.plugin:tunicallmanager": {
+            "version": "0.0.1"
+        },
+        "com.thingclips.smart.plugin:tunicountryselectmanager": {
+            "version": "1.0.0-anonymize.1"
+        },
+        "com.thingclips.smart.plugin:tunifontmanager": {
+            "version": "1.0.2-anonymize.1"
+        },
+        "com.thingclips.smart.plugin:tuniiapmanager": {
+            "version": "1.0.0"
+        },
+        "com.thingclips.smart.plugin:tuniimagenetworkmanager": {
+            "version": "1.1.2"
+        },
+        "com.thingclips.smart.plugin:tunilocalizationmanager": {
+            "version": "1.6.3"
+        },
+        "com.thingclips.smart.plugin:tunilogmanager": {
+            "version": "1.0.0-rc.5"
+        },
+        "com.thingclips.smart.plugin:tuniminipagerefreshmanager": {
+            "version": "0.0.3"
+        },
+        "com.thingclips.smart.plugin:tuniopenpagemanager": {
+            "version": "2.4.4"
+        },
+        "com.thingclips.smart.plugin:tunipaymanager": {
+            "version": "2.0.8"
+        },
+        "com.thingclips.smart.plugin:tuniroutermanager": {
+            "version": "1.3.2-anonymize.2"
+        },
+        "com.thingclips.smart.plugin:tunisharemanager": {
+            "version": "1.1.3"
+        },
+        "com.thingclips.smart.plugin:tunisirimanager": {
+            "version": "1.0.4"
+        },
+        "com.thingclips.smart.plugin:tuniuserinfomanager": {
+            "version": "2.0.0-rc.1"
+        },
+        "com.thingclips.smart.plugin:tuniutilsmanager": {
+            "version": "1.2.1"
+        },
+        "com.thingclips.smart.plugin:tuniwebsocketmanager": {
+            "version": "1.0.0-rc.10"
+        }
+    }
+}

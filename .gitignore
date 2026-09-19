@@ -1,0 +1,11 @@
+# Virtual Environment
+.venv/
+__pycache__/
+*.py[cod]
+
+# Duplicate extract folders (all files are already present in root res/, assets/, src/)
+decompiled_output/
+decompiled_sample/
+
+# Scratch and logs
+*.log

@@ -1,0 +1,28 @@
+{
+  "pullAnimation": {
+    "name": "DPCPullAnimation"
+  },
+  "content": [
+    {
+      "name": "IntelligencePageProvider"
+    }
+  ],
+  "container": {
+    "name": "list"
+  },
+  "emptyPage": {
+    "name": "IntelligenceEmptyProvider"
+  },
+  "skeleton": {
+    "name": "DPCSkeleton",
+    "config": {
+      "Skeleton": {
+        "imageAssetsFolder": "images/",
+        "phone": "intelligence_shimmer_light.json",
+        "phoneDark": "intelligence_shimmer_dark.json",
+        "pad": "intelligence_shimmer_light.json",
+        "padDark": "intelligence_shimmer_dark.json"
+      }
+    }
+  }
+}

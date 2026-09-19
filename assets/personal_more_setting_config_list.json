@@ -1,0 +1,16 @@
+[
+  {
+    "name": "personal_setting_activator_group",
+    "header": {
+      "cellType": "personal_setting_empty"
+    },
+    "items": [
+      {
+        "cellType": "personal_setting_pair"
+      },
+      {
+        "cellType": "personal_setting_scan"
+      }
+    ]
+  }
+]

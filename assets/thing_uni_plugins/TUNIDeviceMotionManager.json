@@ -1,0 +1,1 @@
+{"startDeviceMotionListening":{"object":{"interval":{"game":"game","ui":"ui","normal":"normal"}},"success":{}},"stopDeviceMotionListening":{"success":{}},"onDeviceMotionChange":{"callback":{"alpha":"alpha","beta":"beta","gamma":"gamma"}},"offDeviceMotionChange":{"callback":{"alpha":"alpha","beta":"beta","gamma":"gamma"}}}
